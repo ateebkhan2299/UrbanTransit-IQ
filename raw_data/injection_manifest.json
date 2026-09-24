@@ -1,0 +1,29 @@
+[
+    {
+        "type": "missing_values",
+        "table": "trips",
+        "column": "vehicle_id",
+        "count": 5100
+    },
+    {
+        "type": "duplicates",
+        "table": "tickets",
+        "count": 5000
+    },
+    {
+        "type": "invalid_timestamps",
+        "table": "delays",
+        "column": "delay_minutes",
+        "count": 780
+    },
+    {
+        "type": "vehicle_bunching",
+        "table": "gps_events",
+        "count": "synthetic implicit via random gen"
+    },
+    {
+        "type": "overcrowding",
+        "table": "passenger_counts",
+        "count": "synthetic implicit via >100% capacity"
+    }
+]

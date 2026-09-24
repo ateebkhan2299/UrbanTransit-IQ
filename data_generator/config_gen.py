@@ -1,0 +1,25 @@
+import os
+
+# Paths
+RAW_DIR = "raw_data"
+os.makedirs(RAW_DIR, exist_ok=True)
+
+# Minimum constraints (with buffer)
+NUM_ROUTES = 120
+NUM_STOPS = 550
+NUM_VEHICLES = 280
+NUM_PASSENGERS = 60000
+MONTHS_HISTORY = 12
+DAYS_TOTAL = MONTHS_HISTORY * 30
+
+# High-volume constraints
+MIN_TICKETS = 2_100_000
+MIN_TRIP_RECORDS = 510_000 # Trips
+MIN_DELAYS = 260_000
+
+# Other params
+TRIPS_PER_DAY = MIN_TRIP_RECORDS // DAYS_TOTAL + 1
+TICKETS_PER_DAY = MIN_TICKETS // DAYS_TOTAL + 1
+DELAYS_PER_DAY = MIN_DELAYS // DAYS_TOTAL + 1
+
+CHUNK_SIZE = 250_000
