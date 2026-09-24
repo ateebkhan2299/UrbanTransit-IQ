@@ -1,0 +1,12 @@
+# Mock HDFS Commands for Demonstration
+Write-Host "C:\Users\USER\Desktop\techwiz> hdfs dfs -mkdir -p /urbantransit/raw_data"
+Write-Host "C:\Users\USER\Desktop\techwiz> hdfs dfs -mkdir -p /urbantransit/processed_data"
+Write-Host "C:\Users\USER\Desktop\techwiz> hdfs dfs -ls /urbantransit/"
+Write-Host "Found 2 items"
+Write-Host "drwxr-xr-x   - hadoop supergroup          0 2026-09-24 10:15 /urbantransit/processed_data"
+Write-Host "drwxr-xr-x   - hadoop supergroup          0 2026-09-24 10:15 /urbantransit/raw_data"
+Write-Host "C:\Users\USER\Desktop\techwiz> hdfs dfs -put raw_data/routes.csv /urbantransit/raw_data/"
+Write-Host "26/09/24 10:15:32 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false"
+Write-Host "C:\Users\USER\Desktop\techwiz> hdfs dfs -ls /urbantransit/raw_data/"
+Write-Host "Found 1 items"
+Write-Host "-rw-r--r--   1 hadoop supergroup     254890 2026-09-24 10:15 /urbantransit/raw_data/routes.csv"

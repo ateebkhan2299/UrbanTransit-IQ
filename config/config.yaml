@@ -1,0 +1,22 @@
+paths:
+  raw_data: "raw_data/"
+  processed_data: "processed_data/"
+  parquet_data: "parquet_data/"
+  models: "models/"
+  reports: "reports/"
+thresholds:
+  overcrowding_occupancy_pct: 100
+  critical_occupancy_pct: 120
+  delay_minor_min: 5
+  delay_moderate_min: 15
+  delay_major_min: 30
+  delay_severe_min: 60
+dataset_minimums:
+  ticketing_records: 2000000
+  trip_level_records: 500000
+  routes: 100
+  stops: 500
+  vehicles: 250
+  passengers: 50000
+  months_history: 12
+  delay_records: 250000
