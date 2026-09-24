@@ -33,7 +33,7 @@ export default function Occupancy() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="bg-white p-4 rounded-lg shadow-sm border">
-          <h2 className="text-lg font-semibold text-red-600 mb-2">High Risk Trips (>80%)</h2>
+          <h2 className="text-lg font-semibold text-red-600 mb-2">High Risk Trips (&gt;80%)</h2>
           <ul className="space-y-3">
             <li className="flex justify-between items-center bg-red-50 p-3 rounded">
               <span className="font-medium">R12 - 08:00 AM</span>
