@@ -1,0 +1,248 @@
+[
+    {
+        "recommendation_id": "REC-0001",
+        "action": "Increase Route R12 frequency between 08:00 and 09:00",
+        "reason": {
+            "average_occupancy_pct": 94,
+            "critical_occupancy_events": 18,
+            "passenger_demand_growth_pct": 21,
+            "average_headway_min": 17,
+            "pattern": "Repeated overload observed on weekdays"
+        },
+        "priority": "High",
+        "route_id": "R12",
+        "generated_on": "2026-09-24T20:55:57.999617"
+    },
+    {
+        "recommendation_id": "REC-0002",
+        "action": "Reduce frequency on Route R44 during off-peak hours (11:00-14:00)",
+        "reason": {
+            "average_occupancy_pct": 14,
+            "critical_occupancy_events": 0,
+            "passenger_demand_growth_pct": -5,
+            "average_headway_min": 10,
+            "pattern": "Consistent underutilization below 20% capacity"
+        },
+        "priority": "Medium",
+        "route_id": "R44",
+        "generated_on": "2026-09-24T20:55:57.999680"
+    },
+    {
+        "recommendation_id": "REC-0003",
+        "action": "Implement headway management interventions on Route R08",
+        "reason": {
+            "average_occupancy_pct": 65,
+            "bunching_events": 45,
+            "average_headway_min": 4.2,
+            "scheduled_headway_min": 15.0,
+            "pattern": "Severe bunching detected consistently near Stop S-102"
+        },
+        "priority": "Low",
+        "route_id": "R08",
+        "generated_on": "2026-09-24T20:55:57.999688"
+    },
+    {
+        "recommendation_id": "REC-0004",
+        "action": "Optimize schedule for Route R8 to align with demand",
+        "reason": {
+            "average_occupancy_pct": 44,
+            "delay_minutes": 9,
+            "pattern": "Schedule mismatch detected"
+        },
+        "priority": "Low",
+        "route_id": "R8",
+        "generated_on": "2026-09-24T20:55:57.999706"
+    },
+    {
+        "recommendation_id": "REC-0005",
+        "action": "Optimize schedule for Route R10 to align with demand",
+        "reason": {
+            "average_occupancy_pct": 45,
+            "delay_minutes": 10,
+            "pattern": "Schedule mismatch detected"
+        },
+        "priority": "Low",
+        "route_id": "R10",
+        "generated_on": "2026-09-24T20:55:57.999718"
+    },
+    {
+        "recommendation_id": "REC-0006",
+        "action": "Optimize schedule for Route R12 to align with demand",
+        "reason": {
+            "average_occupancy_pct": 46,
+            "delay_minutes": 11,
+            "pattern": "Schedule mismatch detected"
+        },
+        "priority": "Low",
+        "route_id": "R12",
+        "generated_on": "2026-09-24T20:55:57.999727"
+    },
+    {
+        "recommendation_id": "REC-0007",
+        "action": "Optimize schedule for Route R14 to align with demand",
+        "reason": {
+            "average_occupancy_pct": 47,
+            "delay_minutes": 12,
+            "pattern": "Schedule mismatch detected"
+        },
+        "priority": "Low",
+        "route_id": "R14",
+        "generated_on": "2026-09-24T20:55:57.999734"
+    },
+    {
+        "recommendation_id": "REC-0008",
+        "action": "Optimize schedule for Route R16 to align with demand",
+        "reason": {
+            "average_occupancy_pct": 48,
+            "delay_minutes": 13,
+            "pattern": "Schedule mismatch detected"
+        },
+        "priority": "Low",
+        "route_id": "R16",
+        "generated_on": "2026-09-24T20:55:57.999741"
+    },
+    {
+        "recommendation_id": "REC-0009",
+        "action": "Optimize schedule for Route R18 to align with demand",
+        "reason": {
+            "average_occupancy_pct": 49,
+            "delay_minutes": 14,
+            "pattern": "Schedule mismatch detected"
+        },
+        "priority": "Low",
+        "route_id": "R18",
+        "generated_on": "2026-09-24T20:55:57.999747"
+    },
+    {
+        "recommendation_id": "REC-0010",
+        "action": "Optimize schedule for Route R20 to align with demand",
+        "reason": {
+            "average_occupancy_pct": 50,
+            "delay_minutes": 15,
+            "pattern": "Schedule mismatch detected"
+        },
+        "priority": "Low",
+        "route_id": "R20",
+        "generated_on": "2026-09-24T20:55:57.999760"
+    },
+    {
+        "recommendation_id": "REC-0011",
+        "action": "Optimize schedule for Route R22 to align with demand",
+        "reason": {
+            "average_occupancy_pct": 51,
+            "delay_minutes": 16,
+            "pattern": "Schedule mismatch detected"
+        },
+        "priority": "Low",
+        "route_id": "R22",
+        "generated_on": "2026-09-24T20:55:57.999770"
+    },
+    {
+        "recommendation_id": "REC-0012",
+        "action": "Optimize schedule for Route R24 to align with demand",
+        "reason": {
+            "average_occupancy_pct": 52,
+            "delay_minutes": 17,
+            "pattern": "Schedule mismatch detected"
+        },
+        "priority": "Low",
+        "route_id": "R24",
+        "generated_on": "2026-09-24T20:55:57.999780"
+    },
+    {
+        "recommendation_id": "REC-0013",
+        "action": "Optimize schedule for Route R26 to align with demand",
+        "reason": {
+            "average_occupancy_pct": 53,
+            "delay_minutes": 18,
+            "pattern": "Schedule mismatch detected"
+        },
+        "priority": "Low",
+        "route_id": "R26",
+        "generated_on": "2026-09-24T20:55:57.999786"
+    },
+    {
+        "recommendation_id": "REC-0014",
+        "action": "Optimize schedule for Route R28 to align with demand",
+        "reason": {
+            "average_occupancy_pct": 54,
+            "delay_minutes": 19,
+            "pattern": "Schedule mismatch detected"
+        },
+        "priority": "Low",
+        "route_id": "R28",
+        "generated_on": "2026-09-24T20:55:57.999792"
+    },
+    {
+        "recommendation_id": "REC-0015",
+        "action": "Optimize schedule for Route R30 to align with demand",
+        "reason": {
+            "average_occupancy_pct": 55,
+            "delay_minutes": 20,
+            "pattern": "Schedule mismatch detected"
+        },
+        "priority": "Low",
+        "route_id": "R30",
+        "generated_on": "2026-09-24T20:55:57.999798"
+    },
+    {
+        "recommendation_id": "REC-0016",
+        "action": "Optimize schedule for Route R32 to align with demand",
+        "reason": {
+            "average_occupancy_pct": 56,
+            "delay_minutes": 21,
+            "pattern": "Schedule mismatch detected"
+        },
+        "priority": "Low",
+        "route_id": "R32",
+        "generated_on": "2026-09-24T20:55:57.999804"
+    },
+    {
+        "recommendation_id": "REC-0017",
+        "action": "Optimize schedule for Route R34 to align with demand",
+        "reason": {
+            "average_occupancy_pct": 57,
+            "delay_minutes": 22,
+            "pattern": "Schedule mismatch detected"
+        },
+        "priority": "Low",
+        "route_id": "R34",
+        "generated_on": "2026-09-24T20:55:57.999811"
+    },
+    {
+        "recommendation_id": "REC-0018",
+        "action": "Optimize schedule for Route R36 to align with demand",
+        "reason": {
+            "average_occupancy_pct": 58,
+            "delay_minutes": 23,
+            "pattern": "Schedule mismatch detected"
+        },
+        "priority": "Low",
+        "route_id": "R36",
+        "generated_on": "2026-09-24T20:55:57.999817"
+    },
+    {
+        "recommendation_id": "REC-0019",
+        "action": "Optimize schedule for Route R38 to align with demand",
+        "reason": {
+            "average_occupancy_pct": 59,
+            "delay_minutes": 24,
+            "pattern": "Schedule mismatch detected"
+        },
+        "priority": "Low",
+        "route_id": "R38",
+        "generated_on": "2026-09-24T20:55:57.999823"
+    },
+    {
+        "recommendation_id": "REC-0020",
+        "action": "Optimize schedule for Route R40 to align with demand",
+        "reason": {
+            "average_occupancy_pct": 60,
+            "delay_minutes": 25,
+            "pattern": "Schedule mismatch detected"
+        },
+        "priority": "Low",
+        "route_id": "R40",
+        "generated_on": "2026-09-24T20:55:57.999829"
+    }
+]
