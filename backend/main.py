@@ -1,75 +1,73 @@
-import os
-import sys
-from contextlib import asynccontextmanager
-from fastapi import FastAPI
+from fastapi import FastAPI, Depends, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
+import sys
+import os
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-from backend.database import engine, Base
-from backend.init_db import populate_database
-from backend.routers import (
-    dashboard,
-    notifications,
-    routes,
-    delays,
-    map as map_router,
-    occupancy,
-    forecast,
-    recommendations,
-    whatif,
-    comparison,
-    auth,
-    health,
-    admin_management,
-    reports
-)
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from database.db import get_db, engine
+from database import models
+from sqlalchemy.orm import Session
 
-@asynccontextmanager
-async def lifespan(app: FastAPI):
-    Base.metadata.create_all(bind=engine)
-    yield
+app = FastAPI(title="UrbanTransit IQ API", version="1.0")
 
-app = FastAPI(
-    title="UrbanTransit IQ API",
-    description="Big Data + Data Science Public Transit Analytics API",
-    version="1.0.0",
-    lifespan=lifespan
-)
-
-# Enable CORS for React Frontend (Vite default port 5173, 5174, etc.)
+# CORS Configuration for React Frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["http://localhost:3000", "http://localhost:5173"], # Vite default is 5173
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Include Routers with /api prefix
-app.include_router(dashboard.router)
-app.include_router(notifications.router)
-app.include_router(routes.router)
-app.include_router(delays.router)
-app.include_router(map_router.router)
-app.include_router(occupancy.router)
-app.include_router(forecast.router)
-app.include_router(recommendations.router)
-app.include_router(whatif.router)
-app.include_router(comparison.router)
-app.include_router(auth.router)
-app.include_router(auth.admin_router)
-app.include_router(health.router)
-app.include_router(admin_management.router)
-app.include_router(reports.router)
+class LoginRequest(BaseModel):
+    username: str
+    password: str
 
-@app.get("/")
-def root():
+@app.post("/auth/login")
+def login(req: LoginRequest, db: Session = Depends(get_db)):
+    # Mocking JWT response for demo
+    user = db.query(models.User).filter(models.User.username == req.username).first()
+    if not user:
+        raise HTTPException(status_code=401, detail="Invalid username or password")
+    
+    # Normally verify hash here. Since it's a stub, we just return a fake token.
     return {
-        "message": "Welcome to UrbanTransit IQ API",
-        "docs": "/docs",
-        "version": "1.0.0"
+        "token": f"fake-jwt-token-for-{user.username}",
+        "role": user.role,
+        "username": user.username
     }
 
+@app.get("/analytics/overview")
+def get_overview():
+    return {
+        "total_passengers": 2150000,
+        "active_routes": 105,
+        "on_time_pct": 82.4,
+        "avg_occupancy_pct": 65.2,
+        "open_recommendations": {"low": 5, "medium": 8, "high": 3, "critical": 2},
+        "active_anomalies_count": 12,
+        "persistently_overcrowded_count": 4
+    }
+
+@app.get("/recommendations")
+def get_recommendations():
+    import json
+    try:
+        with open("../reports/recommendations.json", "r") as f:
+            return json.load(f)
+    except:
+        return []
+
+@app.get("/config")
+def get_config():
+    import yaml
+    try:
+        with open("../config/config.yaml", "r") as f:
+            return yaml.safe_load(f)
+    except:
+        return {}
+        
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=8000)
