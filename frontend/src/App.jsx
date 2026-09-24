@@ -6,6 +6,9 @@ import Login from './pages/Login';
 import Overview from './pages/Overview';
 import Recommendations from './pages/Recommendations';
 import RouteMap from './pages/RouteMap';
+import Delays from './pages/Delays';
+import Occupancy from './pages/Occupancy';
+import Admin from './pages/Admin';
 
 function App() {
   return (
@@ -16,9 +19,11 @@ function App() {
           <Route path="/" element={<Shell />}>
             <Route index element={<Navigate to="/overview" replace />} />
             <Route path="overview" element={<Overview />} />
+            <Route path="delays" element={<Delays />} />
+            <Route path="occupancy" element={<Occupancy />} />
             <Route path="recommendations" element={<Recommendations />} />
             <Route path="map" element={<RouteMap />} />
-            {/* Other routes omitted for brevity in scaffolding */}
+            <Route path="admin" element={<Admin />} />
           </Route>
         </Routes>
       </BrowserRouter>

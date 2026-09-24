@@ -15,8 +15,11 @@ export default function Shell() {
 
   const navItems = [
     { name: 'Overview', path: '/overview', icon: LayoutDashboard },
+    { name: 'Delay Analysis', path: '/delays', icon: LayoutDashboard },
+    { name: 'Occupancy Risk', path: '/occupancy', icon: Lightbulb },
     { name: 'Recommendations', path: '/recommendations', icon: Lightbulb },
     { name: 'Route Map', path: '/map', icon: Map },
+    { name: 'Admin Panel', path: '/admin', icon: LayoutDashboard },
   ];
 
   return (
