@@ -1,0 +1,4002 @@
+[
+  {
+    "stop_id":"STOP_0001",
+    "stop_name":"Station 1",
+    "latitude":40.65007,
+    "longitude":-73.906919,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0002",
+    "stop_name":"Station 2",
+    "latitude":40.938157,
+    "longitude":-73.987952,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0003",
+    "stop_name":"Station 3",
+    "latitude":40.828797,
+    "longitude":-74.101236,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0004",
+    "stop_name":"Station 4",
+    "latitude":40.762129,
+    "longitude":-73.849102,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0005",
+    "stop_name":"Station 5",
+    "latitude":40.540809,
+    "longitude":-73.913634,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0006",
+    "stop_name":"Station 6",
+    "latitude":40.540797,
+    "longitude":-74.174692,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0007",
+    "stop_name":"Station 7",
+    "latitude":40.491842,
+    "longitude":-73.800536,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0008",
+    "stop_name":"Station 8",
+    "latitude":40.895888,
+    "longitude":-73.844731,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0009",
+    "stop_name":"Station 9",
+    "latitude":40.763358,
+    "longitude":-73.7811,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0010",
+    "stop_name":"Station 10",
+    "latitude":40.816836,
+    "longitude":-73.89314,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0011",
+    "stop_name":"Station 11",
+    "latitude":40.473092,
+    "longitude":-73.949292,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0012",
+    "stop_name":"Station 12",
+    "latitude":40.947755,
+    "longitude":-74.046878,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0013",
+    "stop_name":"Station 13",
+    "latitude":40.879021,
+    "longitude":-73.789636,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0014",
+    "stop_name":"Station 14",
+    "latitude":40.56897,
+    "longitude":-73.822968,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0015",
+    "stop_name":"Station 15",
+    "latitude":40.553712,
+    "longitude":-74.233391,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0016",
+    "stop_name":"Station 16",
+    "latitude":40.554502,
+    "longitude":-74.242817,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0017",
+    "stop_name":"Station 17",
+    "latitude":40.614921,
+    "longitude":-74.067768,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0018",
+    "stop_name":"Station 18",
+    "latitude":40.725178,
+    "longitude":-73.850723,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0019",
+    "stop_name":"Station 19",
+    "latitude":40.678773,
+    "longitude":-73.762362,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0020",
+    "stop_name":"Station 20",
+    "latitude":40.608415,
+    "longitude":-74.180792,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0021",
+    "stop_name":"Station 21",
+    "latitude":40.768726,
+    "longitude":-73.958935,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0022",
+    "stop_name":"Station 22",
+    "latitude":40.532547,
+    "longitude":-74.065555,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0023",
+    "stop_name":"Station 23",
+    "latitude":40.608872,
+    "longitude":-73.771043,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0024",
+    "stop_name":"Station 24",
+    "latitude":40.645981,
+    "longitude":-73.834941,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0025",
+    "stop_name":"Station 25",
+    "latitude":40.690835,
+    "longitude":-73.836836,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0026",
+    "stop_name":"Station 26",
+    "latitude":40.855388,
+    "longitude":-74.021653,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0027",
+    "stop_name":"Station 27",
+    "latitude":40.562637,
+    "longitude":-74.04859,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0028",
+    "stop_name":"Station 28",
+    "latitude":40.719917,
+    "longitude":-74.119296,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0029",
+    "stop_name":"Station 29",
+    "latitude":40.759007,
+    "longitude":-74.227812,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0030",
+    "stop_name":"Station 30",
+    "latitude":40.486025,
+    "longitude":-73.823639,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0031",
+    "stop_name":"Station 31",
+    "latitude":40.766572,
+    "longitude":-73.849549,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0032",
+    "stop_name":"Station 32",
+    "latitude":40.548062,
+    "longitude":-73.756141,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0033",
+    "stop_name":"Station 33",
+    "latitude":40.495326,
+    "longitude":-73.757682,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0034",
+    "stop_name":"Station 34",
+    "latitude":40.937243,
+    "longitude":-73.978284,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0035",
+    "stop_name":"Station 35",
+    "latitude":40.945616,
+    "longitude":-73.871506,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0036",
+    "stop_name":"Station 36",
+    "latitude":40.866999,
+    "longitude":-73.783617,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0037",
+    "stop_name":"Station 37",
+    "latitude":40.615107,
+    "longitude":-73.831176,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0038",
+    "stop_name":"Station 38",
+    "latitude":40.511636,
+    "longitude":-74.132326,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0039",
+    "stop_name":"Station 39",
+    "latitude":40.804917,
+    "longitude":-74.030728,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0040",
+    "stop_name":"Station 40",
+    "latitude":40.682876,
+    "longitude":-74.19142,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0041",
+    "stop_name":"Station 41",
+    "latitude":40.523819,
+    "longitude":-73.778974,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0042",
+    "stop_name":"Station 42",
+    "latitude":40.710388,
+    "longitude":-73.952913,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0043",
+    "stop_name":"Station 43",
+    "latitude":40.479994,
+    "longitude":-74.141679,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0044",
+    "stop_name":"Station 44",
+    "latitude":40.91746,
+    "longitude":-73.92015,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0045",
+    "stop_name":"Station 45",
+    "latitude":40.59219,
+    "longitude":-73.946936,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0046",
+    "stop_name":"Station 46",
+    "latitude":40.794061,
+    "longitude":-74.076919,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0047",
+    "stop_name":"Station 47",
+    "latitude":40.618656,
+    "longitude":-74.199221,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0048",
+    "stop_name":"Station 48",
+    "latitude":40.722834,
+    "longitude":-73.920213,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0049",
+    "stop_name":"Station 49",
+    "latitude":40.736155,
+    "longitude":-73.995846,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0050",
+    "stop_name":"Station 50",
+    "latitude":40.555227,
+    "longitude":-73.869841,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0051",
+    "stop_name":"Station 51",
+    "latitude":40.947592,
+    "longitude":-73.995918,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0052",
+    "stop_name":"Station 52",
+    "latitude":40.850366,
+    "longitude":-73.829909,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0053",
+    "stop_name":"Station 53",
+    "latitude":40.932549,
+    "longitude":-73.980047,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0054",
+    "stop_name":"Station 54",
+    "latitude":40.910214,
+    "longitude":-73.975531,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0055",
+    "stop_name":"Station 55",
+    "latitude":40.76175,
+    "longitude":-73.817673,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0056",
+    "stop_name":"Station 56",
+    "latitude":40.923737,
+    "longitude":-74.054259,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0057",
+    "stop_name":"Station 57",
+    "latitude":40.507046,
+    "longitude":-74.188992,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0058",
+    "stop_name":"Station 58",
+    "latitude":40.560791,
+    "longitude":-74.241609,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0059",
+    "stop_name":"Station 59",
+    "latitude":40.485414,
+    "longitude":-73.878431,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0060",
+    "stop_name":"Station 60",
+    "latitude":40.625465,
+    "longitude":-73.945845,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0061",
+    "stop_name":"Station 61",
+    "latitude":40.657139,
+    "longitude":-73.90396,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0062",
+    "stop_name":"Station 62",
+    "latitude":40.598475,
+    "longitude":-74.149518,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0063",
+    "stop_name":"Station 63",
+    "latitude":40.877169,
+    "longitude":-74.187814,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0064",
+    "stop_name":"Station 64",
+    "latitude":40.641177,
+    "longitude":-74.248728,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0065",
+    "stop_name":"Station 65",
+    "latitude":40.603267,
+    "longitude":-74.080706,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0066",
+    "stop_name":"Station 66",
+    "latitude":40.734148,
+    "longitude":-73.961041,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0067",
+    "stop_name":"Station 67",
+    "latitude":40.533262,
+    "longitude":-74.059878,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0068",
+    "stop_name":"Station 68",
+    "latitude":40.863898,
+    "longitude":-74.037263,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0069",
+    "stop_name":"Station 69",
+    "latitude":40.500075,
+    "longitude":-73.803921,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0070",
+    "stop_name":"Station 70",
+    "latitude":40.956243,
+    "longitude":-74.081872,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0071",
+    "stop_name":"Station 71",
+    "latitude":40.848922,
+    "longitude":-73.999005,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0072",
+    "stop_name":"Station 72",
+    "latitude":40.562158,
+    "longitude":-73.864173,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0073",
+    "stop_name":"Station 73",
+    "latitude":40.465561,
+    "longitude":-74.057729,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0074",
+    "stop_name":"Station 74",
+    "latitude":40.870531,
+    "longitude":-73.944957,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0075",
+    "stop_name":"Station 75",
+    "latitude":40.816229,
+    "longitude":-73.824818,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0076",
+    "stop_name":"Station 76",
+    "latitude":40.827304,
+    "longitude":-73.78124,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0077",
+    "stop_name":"Station 77",
+    "latitude":40.848435,
+    "longitude":-74.182463,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0078",
+    "stop_name":"Station 78",
+    "latitude":40.499822,
+    "longitude":-73.792706,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0079",
+    "stop_name":"Station 79",
+    "latitude":40.642033,
+    "longitude":-74.009942,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0080",
+    "stop_name":"Station 80",
+    "latitude":40.520735,
+    "longitude":-74.126878,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0081",
+    "stop_name":"Station 81",
+    "latitude":40.894352,
+    "longitude":-74.026432,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0082",
+    "stop_name":"Station 82",
+    "latitude":40.774449,
+    "longitude":-73.765984,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0083",
+    "stop_name":"Station 83",
+    "latitude":40.628249,
+    "longitude":-74.009691,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0084",
+    "stop_name":"Station 84",
+    "latitude":40.494579,
+    "longitude":-74.091624,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0085",
+    "stop_name":"Station 85",
+    "latitude":40.618291,
+    "longitude":-73.9393,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0086",
+    "stop_name":"Station 86",
+    "latitude":40.625392,
+    "longitude":-74.135927,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0087",
+    "stop_name":"Station 87",
+    "latitude":40.827603,
+    "longitude":-74.218068,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0088",
+    "stop_name":"Station 88",
+    "latitude":40.781579,
+    "longitude":-74.19156,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0089",
+    "stop_name":"Station 89",
+    "latitude":40.906406,
+    "longitude":-74.191977,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0090",
+    "stop_name":"Station 90",
+    "latitude":40.698907,
+    "longitude":-74.180049,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0091",
+    "stop_name":"Station 91",
+    "latitude":40.522597,
+    "longitude":-74.186586,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0092",
+    "stop_name":"Station 92",
+    "latitude":40.819422,
+    "longitude":-73.935563,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0093",
+    "stop_name":"Station 93",
+    "latitude":40.843193,
+    "longitude":-74.16506,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0094",
+    "stop_name":"Station 94",
+    "latitude":40.743439,
+    "longitude":-74.083166,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0095",
+    "stop_name":"Station 95",
+    "latitude":40.848284,
+    "longitude":-73.807606,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0096",
+    "stop_name":"Station 96",
+    "latitude":40.709698,
+    "longitude":-74.019019,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0097",
+    "stop_name":"Station 97",
+    "latitude":40.724166,
+    "longitude":-73.922221,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0098",
+    "stop_name":"Station 98",
+    "latitude":40.676571,
+    "longitude":-74.16984,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0099",
+    "stop_name":"Station 99",
+    "latitude":40.47551,
+    "longitude":-74.159855,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0100",
+    "stop_name":"Station 100",
+    "latitude":40.516746,
+    "longitude":-74.235566,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0101",
+    "stop_name":"Station 101",
+    "latitude":40.478515,
+    "longitude":-74.171532,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0102",
+    "stop_name":"Station 102",
+    "latitude":40.781005,
+    "longitude":-74.116705,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0103",
+    "stop_name":"Station 103",
+    "latitude":40.619978,
+    "longitude":-74.167495,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0104",
+    "stop_name":"Station 104",
+    "latitude":40.717085,
+    "longitude":-74.211649,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0105",
+    "stop_name":"Station 105",
+    "latitude":40.916583,
+    "longitude":-74.195682,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0106",
+    "stop_name":"Station 106",
+    "latitude":40.587446,
+    "longitude":-74.025611,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0107",
+    "stop_name":"Station 107",
+    "latitude":40.667991,
+    "longitude":-74.152833,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0108",
+    "stop_name":"Station 108",
+    "latitude":40.840576,
+    "longitude":-74.073865,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0109",
+    "stop_name":"Station 109",
+    "latitude":40.577199,
+    "longitude":-74.004291,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0110",
+    "stop_name":"Station 110",
+    "latitude":40.50129,
+    "longitude":-73.910803,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0111",
+    "stop_name":"Station 111",
+    "latitude":40.607676,
+    "longitude":-74.236344,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0112",
+    "stop_name":"Station 112",
+    "latitude":40.543411,
+    "longitude":-73.856295,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0113",
+    "stop_name":"Station 113",
+    "latitude":40.927649,
+    "longitude":-73.94205,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0114",
+    "stop_name":"Station 114",
+    "latitude":40.86686,
+    "longitude":-74.21512,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0115",
+    "stop_name":"Station 115",
+    "latitude":40.779502,
+    "longitude":-73.819211,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0116",
+    "stop_name":"Station 116",
+    "latitude":40.89853,
+    "longitude":-73.795564,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0117",
+    "stop_name":"Station 117",
+    "latitude":40.864636,
+    "longitude":-74.225461,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0118",
+    "stop_name":"Station 118",
+    "latitude":40.556085,
+    "longitude":-74.117561,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0119",
+    "stop_name":"Station 119",
+    "latitude":40.909079,
+    "longitude":-73.852899,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0120",
+    "stop_name":"Station 120",
+    "latitude":40.732471,
+    "longitude":-73.88187,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0121",
+    "stop_name":"Station 121",
+    "latitude":40.86652,
+    "longitude":-74.163739,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0122",
+    "stop_name":"Station 122",
+    "latitude":40.910846,
+    "longitude":-74.151325,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0123",
+    "stop_name":"Station 123",
+    "latitude":40.621802,
+    "longitude":-74.070764,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0124",
+    "stop_name":"Station 124",
+    "latitude":40.517826,
+    "longitude":-74.013739,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0125",
+    "stop_name":"Station 125",
+    "latitude":40.576768,
+    "longitude":-73.946873,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0126",
+    "stop_name":"Station 126",
+    "latitude":40.676354,
+    "longitude":-74.071543,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0127",
+    "stop_name":"Station 127",
+    "latitude":40.871807,
+    "longitude":-74.024733,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0128",
+    "stop_name":"Station 128",
+    "latitude":40.893165,
+    "longitude":-73.882265,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0129",
+    "stop_name":"Station 129",
+    "latitude":40.466276,
+    "longitude":-74.237658,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0130",
+    "stop_name":"Station 130",
+    "latitude":40.718174,
+    "longitude":-74.129782,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0131",
+    "stop_name":"Station 131",
+    "latitude":40.671506,
+    "longitude":-73.899325,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0132",
+    "stop_name":"Station 132",
+    "latitude":40.573854,
+    "longitude":-73.808397,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0133",
+    "stop_name":"Station 133",
+    "latitude":40.522733,
+    "longitude":-74.000161,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0134",
+    "stop_name":"Station 134",
+    "latitude":40.631608,
+    "longitude":-73.989943,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0135",
+    "stop_name":"Station 135",
+    "latitude":40.934255,
+    "longitude":-74.202414,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0136",
+    "stop_name":"Station 136",
+    "latitude":40.624401,
+    "longitude":-74.032294,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0137",
+    "stop_name":"Station 137",
+    "latitude":40.722195,
+    "longitude":-73.989691,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0138",
+    "stop_name":"Station 138",
+    "latitude":40.814309,
+    "longitude":-74.134765,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0139",
+    "stop_name":"Station 139",
+    "latitude":40.644615,
+    "longitude":-74.121378,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0140",
+    "stop_name":"Station 140",
+    "latitude":40.948691,
+    "longitude":-74.067358,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0141",
+    "stop_name":"Station 141",
+    "latitude":40.944024,
+    "longitude":-74.245964,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0142",
+    "stop_name":"Station 142",
+    "latitude":40.588691,
+    "longitude":-74.09496,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0143",
+    "stop_name":"Station 143",
+    "latitude":40.711424,
+    "longitude":-74.150276,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0144",
+    "stop_name":"Station 144",
+    "latitude":40.613239,
+    "longitude":-74.092251,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0145",
+    "stop_name":"Station 145",
+    "latitude":40.60522,
+    "longitude":-74.196119,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0146",
+    "stop_name":"Station 146",
+    "latitude":40.481243,
+    "longitude":-73.810736,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0147",
+    "stop_name":"Station 147",
+    "latitude":40.767582,
+    "longitude":-73.959204,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0148",
+    "stop_name":"Station 148",
+    "latitude":40.71414,
+    "longitude":-73.916449,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0149",
+    "stop_name":"Station 149",
+    "latitude":40.488539,
+    "longitude":-73.861414,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0150",
+    "stop_name":"Station 150",
+    "latitude":40.602123,
+    "longitude":-74.006779,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0151",
+    "stop_name":"Station 151",
+    "latitude":40.916933,
+    "longitude":-74.21254,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0152",
+    "stop_name":"Station 152",
+    "latitude":40.582581,
+    "longitude":-73.987447,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0153",
+    "stop_name":"Station 153",
+    "latitude":40.535247,
+    "longitude":-73.962579,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0154",
+    "stop_name":"Station 154",
+    "latitude":40.707526,
+    "longitude":-73.88328,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0155",
+    "stop_name":"Station 155",
+    "latitude":40.955625,
+    "longitude":-74.04017,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0156",
+    "stop_name":"Station 156",
+    "latitude":40.583828,
+    "longitude":-74.19221,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0157",
+    "stop_name":"Station 157",
+    "latitude":40.798868,
+    "longitude":-74.114112,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0158",
+    "stop_name":"Station 158",
+    "latitude":40.84361,
+    "longitude":-74.074459,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0159",
+    "stop_name":"Station 159",
+    "latitude":40.581619,
+    "longitude":-73.933041,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0160",
+    "stop_name":"Station 160",
+    "latitude":40.826908,
+    "longitude":-73.970611,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0161",
+    "stop_name":"Station 161",
+    "latitude":40.646692,
+    "longitude":-74.077952,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0162",
+    "stop_name":"Station 162",
+    "latitude":40.778953,
+    "longitude":-73.762742,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0163",
+    "stop_name":"Station 163",
+    "latitude":40.779565,
+    "longitude":-73.953113,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0164",
+    "stop_name":"Station 164",
+    "latitude":40.730687,
+    "longitude":-74.137387,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0165",
+    "stop_name":"Station 165",
+    "latitude":40.507945,
+    "longitude":-74.205109,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0166",
+    "stop_name":"Station 166",
+    "latitude":40.880451,
+    "longitude":-74.17957,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0167",
+    "stop_name":"Station 167",
+    "latitude":40.62319,
+    "longitude":-74.133021,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0168",
+    "stop_name":"Station 168",
+    "latitude":40.556059,
+    "longitude":-74.175659,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0169",
+    "stop_name":"Station 169",
+    "latitude":40.483188,
+    "longitude":-74.162716,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0170",
+    "stop_name":"Station 170",
+    "latitude":40.758246,
+    "longitude":-74.113452,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0171",
+    "stop_name":"Station 171",
+    "latitude":40.801582,
+    "longitude":-74.169313,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0172",
+    "stop_name":"Station 172",
+    "latitude":40.471094,
+    "longitude":-73.807617,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0173",
+    "stop_name":"Station 173",
+    "latitude":40.718847,
+    "longitude":-74.215883,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0174",
+    "stop_name":"Station 174",
+    "latitude":40.576048,
+    "longitude":-73.993744,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0175",
+    "stop_name":"Station 175",
+    "latitude":40.785386,
+    "longitude":-74.050802,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0176",
+    "stop_name":"Station 176",
+    "latitude":40.549983,
+    "longitude":-73.764811,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0177",
+    "stop_name":"Station 177",
+    "latitude":40.808269,
+    "longitude":-74.199981,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0178",
+    "stop_name":"Station 178",
+    "latitude":40.656168,
+    "longitude":-74.057072,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0179",
+    "stop_name":"Station 179",
+    "latitude":40.931165,
+    "longitude":-73.771265,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0180",
+    "stop_name":"Station 180",
+    "latitude":40.53156,
+    "longitude":-73.823246,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0181",
+    "stop_name":"Station 181",
+    "latitude":40.633333,
+    "longitude":-73.847464,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0182",
+    "stop_name":"Station 182",
+    "latitude":40.519537,
+    "longitude":-74.127049,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0183",
+    "stop_name":"Station 183",
+    "latitude":40.925147,
+    "longitude":-74.170556,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0184",
+    "stop_name":"Station 184",
+    "latitude":40.90147,
+    "longitude":-73.921678,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0185",
+    "stop_name":"Station 185",
+    "latitude":40.591771,
+    "longitude":-73.791312,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0186",
+    "stop_name":"Station 186",
+    "latitude":40.792792,
+    "longitude":-73.977619,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0187",
+    "stop_name":"Station 187",
+    "latitude":40.871411,
+    "longitude":-73.970194,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0188",
+    "stop_name":"Station 188",
+    "latitude":40.7404,
+    "longitude":-74.11601,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0189",
+    "stop_name":"Station 189",
+    "latitude":40.727625,
+    "longitude":-73.871254,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0190",
+    "stop_name":"Station 190",
+    "latitude":40.583726,
+    "longitude":-74.162478,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0191",
+    "stop_name":"Station 191",
+    "latitude":40.509351,
+    "longitude":-74.09416,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0192",
+    "stop_name":"Station 192",
+    "latitude":40.911408,
+    "longitude":-74.043282,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0193",
+    "stop_name":"Station 193",
+    "latitude":40.913009,
+    "longitude":-74.002195,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0194",
+    "stop_name":"Station 194",
+    "latitude":40.779351,
+    "longitude":-74.134795,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0195",
+    "stop_name":"Station 195",
+    "latitude":40.632315,
+    "longitude":-74.198582,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0196",
+    "stop_name":"Station 196",
+    "latitude":40.637405,
+    "longitude":-73.95069,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0197",
+    "stop_name":"Station 197",
+    "latitude":40.825778,
+    "longitude":-74.111685,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0198",
+    "stop_name":"Station 198",
+    "latitude":40.911355,
+    "longitude":-73.965381,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0199",
+    "stop_name":"Station 199",
+    "latitude":40.906343,
+    "longitude":-74.178819,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0200",
+    "stop_name":"Station 200",
+    "latitude":40.852738,
+    "longitude":-74.01543,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0201",
+    "stop_name":"Station 201",
+    "latitude":40.783816,
+    "longitude":-73.989705,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0202",
+    "stop_name":"Station 202",
+    "latitude":40.50487,
+    "longitude":-74.230088,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0203",
+    "stop_name":"Station 203",
+    "latitude":40.543614,
+    "longitude":-74.087698,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0204",
+    "stop_name":"Station 204",
+    "latitude":40.912077,
+    "longitude":-74.188793,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0205",
+    "stop_name":"Station 205",
+    "latitude":40.766015,
+    "longitude":-74.224313,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0206",
+    "stop_name":"Station 206",
+    "latitude":40.467399,
+    "longitude":-73.76102,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0207",
+    "stop_name":"Station 207",
+    "latitude":40.513536,
+    "longitude":-74.094823,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0208",
+    "stop_name":"Station 208",
+    "latitude":40.794551,
+    "longitude":-73.851063,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0209",
+    "stop_name":"Station 209",
+    "latitude":40.465331,
+    "longitude":-74.12868,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0210",
+    "stop_name":"Station 210",
+    "latitude":40.543204,
+    "longitude":-73.915249,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0211",
+    "stop_name":"Station 211",
+    "latitude":40.737167,
+    "longitude":-73.875886,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0212",
+    "stop_name":"Station 212",
+    "latitude":40.808748,
+    "longitude":-73.958181,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0213",
+    "stop_name":"Station 213",
+    "latitude":40.788781,
+    "longitude":-74.020212,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0214",
+    "stop_name":"Station 214",
+    "latitude":40.574935,
+    "longitude":-74.05008,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0215",
+    "stop_name":"Station 215",
+    "latitude":40.81889,
+    "longitude":-74.081566,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0216",
+    "stop_name":"Station 216",
+    "latitude":40.581425,
+    "longitude":-73.791235,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0217",
+    "stop_name":"Station 217",
+    "latitude":40.6255,
+    "longitude":-73.84069,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0218",
+    "stop_name":"Station 218",
+    "latitude":40.836046,
+    "longitude":-73.773487,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0219",
+    "stop_name":"Station 219",
+    "latitude":40.787616,
+    "longitude":-74.193851,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0220",
+    "stop_name":"Station 220",
+    "latitude":40.887412,
+    "longitude":-73.890566,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0221",
+    "stop_name":"Station 221",
+    "latitude":40.791606,
+    "longitude":-73.78683,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0222",
+    "stop_name":"Station 222",
+    "latitude":40.746954,
+    "longitude":-74.165383,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0223",
+    "stop_name":"Station 223",
+    "latitude":40.509637,
+    "longitude":-74.222752,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0224",
+    "stop_name":"Station 224",
+    "latitude":40.646658,
+    "longitude":-73.88544,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0225",
+    "stop_name":"Station 225",
+    "latitude":40.595401,
+    "longitude":-73.968763,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0226",
+    "stop_name":"Station 226",
+    "latitude":40.584795,
+    "longitude":-73.835086,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0227",
+    "stop_name":"Station 227",
+    "latitude":40.949305,
+    "longitude":-74.186114,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0228",
+    "stop_name":"Station 228",
+    "latitude":40.659349,
+    "longitude":-73.858366,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0229",
+    "stop_name":"Station 229",
+    "latitude":40.908823,
+    "longitude":-74.155186,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0230",
+    "stop_name":"Station 230",
+    "latitude":40.778369,
+    "longitude":-74.174172,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0231",
+    "stop_name":"Station 231",
+    "latitude":40.860206,
+    "longitude":-74.173867,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0232",
+    "stop_name":"Station 232",
+    "latitude":40.714119,
+    "longitude":-73.848713,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0233",
+    "stop_name":"Station 233",
+    "latitude":40.751252,
+    "longitude":-73.923401,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0234",
+    "stop_name":"Station 234",
+    "latitude":40.709059,
+    "longitude":-73.994467,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0235",
+    "stop_name":"Station 235",
+    "latitude":40.560421,
+    "longitude":-74.076585,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0236",
+    "stop_name":"Station 236",
+    "latitude":40.824026,
+    "longitude":-73.8174,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0237",
+    "stop_name":"Station 237",
+    "latitude":40.603186,
+    "longitude":-74.059777,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0238",
+    "stop_name":"Station 238",
+    "latitude":40.474958,
+    "longitude":-73.8477,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0239",
+    "stop_name":"Station 239",
+    "latitude":40.785536,
+    "longitude":-74.036433,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0240",
+    "stop_name":"Station 240",
+    "latitude":40.551355,
+    "longitude":-74.067528,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0241",
+    "stop_name":"Station 241",
+    "latitude":40.933029,
+    "longitude":-74.02466,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0242",
+    "stop_name":"Station 242",
+    "latitude":40.939764,
+    "longitude":-74.105311,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0243",
+    "stop_name":"Station 243",
+    "latitude":40.920232,
+    "longitude":-73.882195,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0244",
+    "stop_name":"Station 244",
+    "latitude":40.647879,
+    "longitude":-74.00464,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0245",
+    "stop_name":"Station 245",
+    "latitude":40.470528,
+    "longitude":-74.139894,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0246",
+    "stop_name":"Station 246",
+    "latitude":40.926959,
+    "longitude":-73.806213,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0247",
+    "stop_name":"Station 247",
+    "latitude":40.676892,
+    "longitude":-74.064054,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0248",
+    "stop_name":"Station 248",
+    "latitude":40.946127,
+    "longitude":-73.984224,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0249",
+    "stop_name":"Station 249",
+    "latitude":40.94461,
+    "longitude":-73.802764,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0250",
+    "stop_name":"Station 250",
+    "latitude":40.889305,
+    "longitude":-73.943881,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0251",
+    "stop_name":"Station 251",
+    "latitude":40.610024,
+    "longitude":-74.197551,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0252",
+    "stop_name":"Station 252",
+    "latitude":40.655349,
+    "longitude":-73.786084,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0253",
+    "stop_name":"Station 253",
+    "latitude":40.888368,
+    "longitude":-73.942146,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0254",
+    "stop_name":"Station 254",
+    "latitude":40.621261,
+    "longitude":-74.088547,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0255",
+    "stop_name":"Station 255",
+    "latitude":40.547546,
+    "longitude":-74.186364,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0256",
+    "stop_name":"Station 256",
+    "latitude":40.741201,
+    "longitude":-73.858987,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0257",
+    "stop_name":"Station 257",
+    "latitude":40.930877,
+    "longitude":-73.945964,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0258",
+    "stop_name":"Station 258",
+    "latitude":40.810815,
+    "longitude":-73.989269,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0259",
+    "stop_name":"Station 259",
+    "latitude":40.747831,
+    "longitude":-73.809054,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0260",
+    "stop_name":"Station 260",
+    "latitude":40.511388,
+    "longitude":-73.861701,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0261",
+    "stop_name":"Station 261",
+    "latitude":40.770304,
+    "longitude":-74.180163,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0262",
+    "stop_name":"Station 262",
+    "latitude":40.957827,
+    "longitude":-74.100139,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0263",
+    "stop_name":"Station 263",
+    "latitude":40.532842,
+    "longitude":-74.131755,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0264",
+    "stop_name":"Station 264",
+    "latitude":40.721965,
+    "longitude":-73.884027,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0265",
+    "stop_name":"Station 265",
+    "latitude":40.901487,
+    "longitude":-74.239234,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0266",
+    "stop_name":"Station 266",
+    "latitude":40.833184,
+    "longitude":-73.971055,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0267",
+    "stop_name":"Station 267",
+    "latitude":40.811308,
+    "longitude":-73.874771,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0268",
+    "stop_name":"Station 268",
+    "latitude":40.814042,
+    "longitude":-73.817617,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0269",
+    "stop_name":"Station 269",
+    "latitude":40.642546,
+    "longitude":-74.084959,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0270",
+    "stop_name":"Station 270",
+    "latitude":40.609596,
+    "longitude":-73.845371,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0271",
+    "stop_name":"Station 271",
+    "latitude":40.867481,
+    "longitude":-74.200684,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0272",
+    "stop_name":"Station 272",
+    "latitude":40.867857,
+    "longitude":-73.832774,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0273",
+    "stop_name":"Station 273",
+    "latitude":40.896336,
+    "longitude":-74.192256,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0274",
+    "stop_name":"Station 274",
+    "latitude":40.91942,
+    "longitude":-74.057356,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0275",
+    "stop_name":"Station 275",
+    "latitude":40.718471,
+    "longitude":-73.857352,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0276",
+    "stop_name":"Station 276",
+    "latitude":40.713558,
+    "longitude":-74.181041,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0277",
+    "stop_name":"Station 277",
+    "latitude":40.861948,
+    "longitude":-74.141374,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0278",
+    "stop_name":"Station 278",
+    "latitude":40.787782,
+    "longitude":-73.894874,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0279",
+    "stop_name":"Station 279",
+    "latitude":40.813783,
+    "longitude":-73.895982,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0280",
+    "stop_name":"Station 280",
+    "latitude":40.860696,
+    "longitude":-73.935426,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0281",
+    "stop_name":"Station 281",
+    "latitude":40.907803,
+    "longitude":-73.909026,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0282",
+    "stop_name":"Station 282",
+    "latitude":40.631798,
+    "longitude":-73.984638,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0283",
+    "stop_name":"Station 283",
+    "latitude":40.650591,
+    "longitude":-74.1301,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0284",
+    "stop_name":"Station 284",
+    "latitude":40.509791,
+    "longitude":-74.083152,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0285",
+    "stop_name":"Station 285",
+    "latitude":40.75194,
+    "longitude":-74.165201,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0286",
+    "stop_name":"Station 286",
+    "latitude":40.480771,
+    "longitude":-73.801775,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0287",
+    "stop_name":"Station 287",
+    "latitude":40.695599,
+    "longitude":-73.964304,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0288",
+    "stop_name":"Station 288",
+    "latitude":40.734122,
+    "longitude":-74.055574,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0289",
+    "stop_name":"Station 289",
+    "latitude":40.606071,
+    "longitude":-74.024997,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0290",
+    "stop_name":"Station 290",
+    "latitude":40.758217,
+    "longitude":-73.782358,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0291",
+    "stop_name":"Station 291",
+    "latitude":40.47805,
+    "longitude":-74.179324,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0292",
+    "stop_name":"Station 292",
+    "latitude":40.481474,
+    "longitude":-73.962885,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0293",
+    "stop_name":"Station 293",
+    "latitude":40.8741,
+    "longitude":-74.003056,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0294",
+    "stop_name":"Station 294",
+    "latitude":40.642895,
+    "longitude":-73.950273,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0295",
+    "stop_name":"Station 295",
+    "latitude":40.52633,
+    "longitude":-74.246945,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0296",
+    "stop_name":"Station 296",
+    "latitude":40.723922,
+    "longitude":-73.819938,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0297",
+    "stop_name":"Station 297",
+    "latitude":40.847797,
+    "longitude":-73.789941,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0298",
+    "stop_name":"Station 298",
+    "latitude":40.570711,
+    "longitude":-73.973433,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0299",
+    "stop_name":"Station 299",
+    "latitude":40.774245,
+    "longitude":-73.907675,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0300",
+    "stop_name":"Station 300",
+    "latitude":40.505474,
+    "longitude":-73.79475,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0301",
+    "stop_name":"Station 301",
+    "latitude":40.488641,
+    "longitude":-73.902381,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0302",
+    "stop_name":"Station 302",
+    "latitude":40.728477,
+    "longitude":-74.17973,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0303",
+    "stop_name":"Station 303",
+    "latitude":40.733118,
+    "longitude":-73.967856,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0304",
+    "stop_name":"Station 304",
+    "latitude":40.781515,
+    "longitude":-73.952642,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0305",
+    "stop_name":"Station 305",
+    "latitude":40.825846,
+    "longitude":-74.043935,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0306",
+    "stop_name":"Station 306",
+    "latitude":40.950726,
+    "longitude":-73.887778,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0307",
+    "stop_name":"Station 307",
+    "latitude":40.72095,
+    "longitude":-73.788816,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0308",
+    "stop_name":"Station 308",
+    "latitude":40.624278,
+    "longitude":-73.793216,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0309",
+    "stop_name":"Station 309",
+    "latitude":40.860393,
+    "longitude":-74.03058,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0310",
+    "stop_name":"Station 310",
+    "latitude":40.598216,
+    "longitude":-74.199381,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0311",
+    "stop_name":"Station 311",
+    "latitude":40.682286,
+    "longitude":-73.763579,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0312",
+    "stop_name":"Station 312",
+    "latitude":40.502028,
+    "longitude":-73.836551,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0313",
+    "stop_name":"Station 313",
+    "latitude":40.475475,
+    "longitude":-74.193669,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0314",
+    "stop_name":"Station 314",
+    "latitude":40.944124,
+    "longitude":-73.795579,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0315",
+    "stop_name":"Station 315",
+    "latitude":40.88079,
+    "longitude":-73.821052,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0316",
+    "stop_name":"Station 316",
+    "latitude":40.810787,
+    "longitude":-73.996581,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0317",
+    "stop_name":"Station 317",
+    "latitude":40.667276,
+    "longitude":-73.960362,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0318",
+    "stop_name":"Station 318",
+    "latitude":40.549447,
+    "longitude":-74.056499,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0319",
+    "stop_name":"Station 319",
+    "latitude":40.541019,
+    "longitude":-74.228619,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0320",
+    "stop_name":"Station 320",
+    "latitude":40.587921,
+    "longitude":-74.088401,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0321",
+    "stop_name":"Station 321",
+    "latitude":40.737413,
+    "longitude":-73.854573,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0322",
+    "stop_name":"Station 322",
+    "latitude":40.820098,
+    "longitude":-74.253684,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0323",
+    "stop_name":"Station 323",
+    "latitude":40.792899,
+    "longitude":-74.08925,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0324",
+    "stop_name":"Station 324",
+    "latitude":40.602767,
+    "longitude":-74.056916,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0325",
+    "stop_name":"Station 325",
+    "latitude":40.940233,
+    "longitude":-73.987302,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0326",
+    "stop_name":"Station 326",
+    "latitude":40.831748,
+    "longitude":-73.796072,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0327",
+    "stop_name":"Station 327",
+    "latitude":40.739977,
+    "longitude":-74.082827,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0328",
+    "stop_name":"Station 328",
+    "latitude":40.76866,
+    "longitude":-74.082523,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0329",
+    "stop_name":"Station 329",
+    "latitude":40.6726,
+    "longitude":-73.887249,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0330",
+    "stop_name":"Station 330",
+    "latitude":40.586665,
+    "longitude":-74.029891,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0331",
+    "stop_name":"Station 331",
+    "latitude":40.640786,
+    "longitude":-74.143698,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0332",
+    "stop_name":"Station 332",
+    "latitude":40.841723,
+    "longitude":-74.02978,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0333",
+    "stop_name":"Station 333",
+    "latitude":40.469997,
+    "longitude":-74.185571,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0334",
+    "stop_name":"Station 334",
+    "latitude":40.520836,
+    "longitude":-74.167807,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0335",
+    "stop_name":"Station 335",
+    "latitude":40.485801,
+    "longitude":-74.006816,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0336",
+    "stop_name":"Station 336",
+    "latitude":40.483164,
+    "longitude":-74.046537,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0337",
+    "stop_name":"Station 337",
+    "latitude":40.89053,
+    "longitude":-73.798577,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0338",
+    "stop_name":"Station 338",
+    "latitude":40.814629,
+    "longitude":-74.074803,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0339",
+    "stop_name":"Station 339",
+    "latitude":40.699887,
+    "longitude":-73.965706,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0340",
+    "stop_name":"Station 340",
+    "latitude":40.511717,
+    "longitude":-73.939868,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0341",
+    "stop_name":"Station 341",
+    "latitude":40.708608,
+    "longitude":-74.249453,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0342",
+    "stop_name":"Station 342",
+    "latitude":40.699536,
+    "longitude":-73.924231,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0343",
+    "stop_name":"Station 343",
+    "latitude":40.549401,
+    "longitude":-74.166982,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0344",
+    "stop_name":"Station 344",
+    "latitude":40.679726,
+    "longitude":-73.775465,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0345",
+    "stop_name":"Station 345",
+    "latitude":40.662052,
+    "longitude":-74.181669,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0346",
+    "stop_name":"Station 346",
+    "latitude":40.770725,
+    "longitude":-74.048688,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0347",
+    "stop_name":"Station 347",
+    "latitude":40.780347,
+    "longitude":-74.213325,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0348",
+    "stop_name":"Station 348",
+    "latitude":40.485452,
+    "longitude":-73.757563,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0349",
+    "stop_name":"Station 349",
+    "latitude":40.650106,
+    "longitude":-74.004902,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0350",
+    "stop_name":"Station 350",
+    "latitude":40.77573,
+    "longitude":-73.958307,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0351",
+    "stop_name":"Station 351",
+    "latitude":40.714368,
+    "longitude":-74.222462,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0352",
+    "stop_name":"Station 352",
+    "latitude":40.891045,
+    "longitude":-73.88102,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0353",
+    "stop_name":"Station 353",
+    "latitude":40.792147,
+    "longitude":-74.151047,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0354",
+    "stop_name":"Station 354",
+    "latitude":40.544267,
+    "longitude":-73.806973,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0355",
+    "stop_name":"Station 355",
+    "latitude":40.498084,
+    "longitude":-74.15343,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0356",
+    "stop_name":"Station 356",
+    "latitude":40.78401,
+    "longitude":-74.160656,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0357",
+    "stop_name":"Station 357",
+    "latitude":40.476056,
+    "longitude":-74.237725,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0358",
+    "stop_name":"Station 358",
+    "latitude":40.755688,
+    "longitude":-74.019967,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0359",
+    "stop_name":"Station 359",
+    "latitude":40.932915,
+    "longitude":-73.973579,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0360",
+    "stop_name":"Station 360",
+    "latitude":40.750537,
+    "longitude":-74.223146,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0361",
+    "stop_name":"Station 361",
+    "latitude":40.656885,
+    "longitude":-73.868236,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0362",
+    "stop_name":"Station 362",
+    "latitude":40.784444,
+    "longitude":-74.029356,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0363",
+    "stop_name":"Station 363",
+    "latitude":40.691926,
+    "longitude":-73.993805,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0364",
+    "stop_name":"Station 364",
+    "latitude":40.735608,
+    "longitude":-74.035619,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0365",
+    "stop_name":"Station 365",
+    "latitude":40.933532,
+    "longitude":-74.055618,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0366",
+    "stop_name":"Station 366",
+    "latitude":40.655851,
+    "longitude":-73.97618,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0367",
+    "stop_name":"Station 367",
+    "latitude":40.943395,
+    "longitude":-74.17838,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0368",
+    "stop_name":"Station 368",
+    "latitude":40.915475,
+    "longitude":-74.165036,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0369",
+    "stop_name":"Station 369",
+    "latitude":40.560696,
+    "longitude":-73.825107,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0370",
+    "stop_name":"Station 370",
+    "latitude":40.497481,
+    "longitude":-73.782942,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0371",
+    "stop_name":"Station 371",
+    "latitude":40.513189,
+    "longitude":-74.069345,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0372",
+    "stop_name":"Station 372",
+    "latitude":40.471911,
+    "longitude":-74.120628,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0373",
+    "stop_name":"Station 373",
+    "latitude":40.510021,
+    "longitude":-73.934,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0374",
+    "stop_name":"Station 374",
+    "latitude":40.804303,
+    "longitude":-74.051633,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0375",
+    "stop_name":"Station 375",
+    "latitude":40.498394,
+    "longitude":-74.243307,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0376",
+    "stop_name":"Station 376",
+    "latitude":40.622288,
+    "longitude":-74.177924,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0377",
+    "stop_name":"Station 377",
+    "latitude":40.885238,
+    "longitude":-73.898014,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0378",
+    "stop_name":"Station 378",
+    "latitude":40.474436,
+    "longitude":-73.926538,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0379",
+    "stop_name":"Station 379",
+    "latitude":40.870034,
+    "longitude":-74.242452,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0380",
+    "stop_name":"Station 380",
+    "latitude":40.603727,
+    "longitude":-74.145014,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0381",
+    "stop_name":"Station 381",
+    "latitude":40.521882,
+    "longitude":-74.140463,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0382",
+    "stop_name":"Station 382",
+    "latitude":40.811169,
+    "longitude":-73.920054,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0383",
+    "stop_name":"Station 383",
+    "latitude":40.777271,
+    "longitude":-74.246145,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0384",
+    "stop_name":"Station 384",
+    "latitude":40.901536,
+    "longitude":-74.203946,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0385",
+    "stop_name":"Station 385",
+    "latitude":40.830336,
+    "longitude":-73.856042,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0386",
+    "stop_name":"Station 386",
+    "latitude":40.86454,
+    "longitude":-74.166728,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0387",
+    "stop_name":"Station 387",
+    "latitude":40.603817,
+    "longitude":-73.929627,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0388",
+    "stop_name":"Station 388",
+    "latitude":40.55152,
+    "longitude":-74.136909,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0389",
+    "stop_name":"Station 389",
+    "latitude":40.838107,
+    "longitude":-74.206279,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0390",
+    "stop_name":"Station 390",
+    "latitude":40.866217,
+    "longitude":-74.134414,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0391",
+    "stop_name":"Station 391",
+    "latitude":40.958053,
+    "longitude":-73.894867,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0392",
+    "stop_name":"Station 392",
+    "latitude":40.669109,
+    "longitude":-73.828152,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0393",
+    "stop_name":"Station 393",
+    "latitude":40.648809,
+    "longitude":-73.84089,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0394",
+    "stop_name":"Station 394",
+    "latitude":40.851006,
+    "longitude":-74.057408,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0395",
+    "stop_name":"Station 395",
+    "latitude":40.633202,
+    "longitude":-73.921957,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0396",
+    "stop_name":"Station 396",
+    "latitude":40.928179,
+    "longitude":-74.153508,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0397",
+    "stop_name":"Station 397",
+    "latitude":40.892006,
+    "longitude":-74.109426,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0398",
+    "stop_name":"Station 398",
+    "latitude":40.677297,
+    "longitude":-73.807832,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0399",
+    "stop_name":"Station 399",
+    "latitude":40.838236,
+    "longitude":-74.249499,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0400",
+    "stop_name":"Station 400",
+    "latitude":40.840071,
+    "longitude":-74.213246,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0401",
+    "stop_name":"Station 401",
+    "latitude":40.514362,
+    "longitude":-74.152057,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0402",
+    "stop_name":"Station 402",
+    "latitude":40.914076,
+    "longitude":-74.242734,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0403",
+    "stop_name":"Station 403",
+    "latitude":40.715426,
+    "longitude":-74.165282,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0404",
+    "stop_name":"Station 404",
+    "latitude":40.876029,
+    "longitude":-73.964479,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0405",
+    "stop_name":"Station 405",
+    "latitude":40.622825,
+    "longitude":-74.045288,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0406",
+    "stop_name":"Station 406",
+    "latitude":40.910562,
+    "longitude":-73.809664,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0407",
+    "stop_name":"Station 407",
+    "latitude":40.657401,
+    "longitude":-73.847278,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0408",
+    "stop_name":"Station 408",
+    "latitude":40.468219,
+    "longitude":-74.085091,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0409",
+    "stop_name":"Station 409",
+    "latitude":40.915491,
+    "longitude":-74.126288,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0410",
+    "stop_name":"Station 410",
+    "latitude":40.508443,
+    "longitude":-74.066154,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0411",
+    "stop_name":"Station 411",
+    "latitude":40.622457,
+    "longitude":-73.960853,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0412",
+    "stop_name":"Station 412",
+    "latitude":40.937831,
+    "longitude":-74.121968,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0413",
+    "stop_name":"Station 413",
+    "latitude":40.938104,
+    "longitude":-73.943926,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0414",
+    "stop_name":"Station 414",
+    "latitude":40.749519,
+    "longitude":-74.051294,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0415",
+    "stop_name":"Station 415",
+    "latitude":40.778719,
+    "longitude":-73.979976,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0416",
+    "stop_name":"Station 416",
+    "latitude":40.687023,
+    "longitude":-74.037937,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0417",
+    "stop_name":"Station 417",
+    "latitude":40.609405,
+    "longitude":-74.108767,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0418",
+    "stop_name":"Station 418",
+    "latitude":40.627132,
+    "longitude":-73.781773,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0419",
+    "stop_name":"Station 419",
+    "latitude":40.799059,
+    "longitude":-73.874197,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0420",
+    "stop_name":"Station 420",
+    "latitude":40.838987,
+    "longitude":-74.185943,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0421",
+    "stop_name":"Station 421",
+    "latitude":40.85859,
+    "longitude":-73.821766,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0422",
+    "stop_name":"Station 422",
+    "latitude":40.857609,
+    "longitude":-74.012284,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0423",
+    "stop_name":"Station 423",
+    "latitude":40.508403,
+    "longitude":-73.808724,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0424",
+    "stop_name":"Station 424",
+    "latitude":40.71001,
+    "longitude":-73.856072,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0425",
+    "stop_name":"Station 425",
+    "latitude":40.491579,
+    "longitude":-74.043393,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0426",
+    "stop_name":"Station 426",
+    "latitude":40.737564,
+    "longitude":-74.244765,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0427",
+    "stop_name":"Station 427",
+    "latitude":40.683565,
+    "longitude":-74.121661,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0428",
+    "stop_name":"Station 428",
+    "latitude":40.906652,
+    "longitude":-73.985183,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0429",
+    "stop_name":"Station 429",
+    "latitude":40.638258,
+    "longitude":-73.939261,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0430",
+    "stop_name":"Station 430",
+    "latitude":40.521334,
+    "longitude":-74.127056,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0431",
+    "stop_name":"Station 431",
+    "latitude":40.534296,
+    "longitude":-74.186322,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0432",
+    "stop_name":"Station 432",
+    "latitude":40.843555,
+    "longitude":-73.838535,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0433",
+    "stop_name":"Station 433",
+    "latitude":40.771909,
+    "longitude":-73.763799,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0434",
+    "stop_name":"Station 434",
+    "latitude":40.513361,
+    "longitude":-73.993155,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0435",
+    "stop_name":"Station 435",
+    "latitude":40.504853,
+    "longitude":-74.17016,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0436",
+    "stop_name":"Station 436",
+    "latitude":40.813285,
+    "longitude":-74.119846,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0437",
+    "stop_name":"Station 437",
+    "latitude":40.499182,
+    "longitude":-74.246805,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0438",
+    "stop_name":"Station 438",
+    "latitude":40.87373,
+    "longitude":-73.798851,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0439",
+    "stop_name":"Station 439",
+    "latitude":40.815921,
+    "longitude":-74.197124,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0440",
+    "stop_name":"Station 440",
+    "latitude":40.503474,
+    "longitude":-73.967742,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0441",
+    "stop_name":"Station 441",
+    "latitude":40.505219,
+    "longitude":-74.118972,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0442",
+    "stop_name":"Station 442",
+    "latitude":40.95612,
+    "longitude":-73.978911,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0443",
+    "stop_name":"Station 443",
+    "latitude":40.649935,
+    "longitude":-73.93029,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0444",
+    "stop_name":"Station 444",
+    "latitude":40.648121,
+    "longitude":-73.841129,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0445",
+    "stop_name":"Station 445",
+    "latitude":40.8692,
+    "longitude":-74.152789,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0446",
+    "stop_name":"Station 446",
+    "latitude":40.936424,
+    "longitude":-74.250502,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0447",
+    "stop_name":"Station 447",
+    "latitude":40.955801,
+    "longitude":-74.187557,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0448",
+    "stop_name":"Station 448",
+    "latitude":40.839489,
+    "longitude":-73.805991,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0449",
+    "stop_name":"Station 449",
+    "latitude":40.65093,
+    "longitude":-73.819055,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0450",
+    "stop_name":"Station 450",
+    "latitude":40.50455,
+    "longitude":-73.957293,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0451",
+    "stop_name":"Station 451",
+    "latitude":40.851373,
+    "longitude":-73.955742,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0452",
+    "stop_name":"Station 452",
+    "latitude":40.742002,
+    "longitude":-73.923482,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0453",
+    "stop_name":"Station 453",
+    "latitude":40.674911,
+    "longitude":-74.168314,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0454",
+    "stop_name":"Station 454",
+    "latitude":40.915977,
+    "longitude":-73.798794,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0455",
+    "stop_name":"Station 455",
+    "latitude":40.518399,
+    "longitude":-74.046615,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0456",
+    "stop_name":"Station 456",
+    "latitude":40.709113,
+    "longitude":-74.064431,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0457",
+    "stop_name":"Station 457",
+    "latitude":40.468477,
+    "longitude":-73.996541,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0458",
+    "stop_name":"Station 458",
+    "latitude":40.69713,
+    "longitude":-74.232517,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0459",
+    "stop_name":"Station 459",
+    "latitude":40.490952,
+    "longitude":-74.172858,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0460",
+    "stop_name":"Station 460",
+    "latitude":40.522209,
+    "longitude":-73.886983,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0461",
+    "stop_name":"Station 461",
+    "latitude":40.521563,
+    "longitude":-74.214601,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0462",
+    "stop_name":"Station 462",
+    "latitude":40.787405,
+    "longitude":-73.954424,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0463",
+    "stop_name":"Station 463",
+    "latitude":40.835822,
+    "longitude":-74.133325,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0464",
+    "stop_name":"Station 464",
+    "latitude":40.754484,
+    "longitude":-74.061352,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0465",
+    "stop_name":"Station 465",
+    "latitude":40.943886,
+    "longitude":-74.111653,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0466",
+    "stop_name":"Station 466",
+    "latitude":40.650235,
+    "longitude":-74.078164,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0467",
+    "stop_name":"Station 467",
+    "latitude":40.605656,
+    "longitude":-73.896477,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0468",
+    "stop_name":"Station 468",
+    "latitude":40.8971,
+    "longitude":-74.107439,
+    "zone_id":"ZONE_2",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0469",
+    "stop_name":"Station 469",
+    "latitude":40.574598,
+    "longitude":-73.972798,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0470",
+    "stop_name":"Station 470",
+    "latitude":40.944411,
+    "longitude":-74.017975,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0471",
+    "stop_name":"Station 471",
+    "latitude":40.468877,
+    "longitude":-73.924164,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0472",
+    "stop_name":"Station 472",
+    "latitude":40.947739,
+    "longitude":-73.787585,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0473",
+    "stop_name":"Station 473",
+    "latitude":40.48438,
+    "longitude":-73.889714,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0474",
+    "stop_name":"Station 474",
+    "latitude":40.908372,
+    "longitude":-74.14853,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0475",
+    "stop_name":"Station 475",
+    "latitude":40.726651,
+    "longitude":-74.240408,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0476",
+    "stop_name":"Station 476",
+    "latitude":40.959282,
+    "longitude":-74.124868,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0477",
+    "stop_name":"Station 477",
+    "latitude":40.499698,
+    "longitude":-73.958461,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0478",
+    "stop_name":"Station 478",
+    "latitude":40.739727,
+    "longitude":-74.230287,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0479",
+    "stop_name":"Station 479",
+    "latitude":40.947451,
+    "longitude":-74.007817,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0480",
+    "stop_name":"Station 480",
+    "latitude":40.724349,
+    "longitude":-73.957579,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0481",
+    "stop_name":"Station 481",
+    "latitude":40.777499,
+    "longitude":-74.088878,
+    "zone_id":"ZONE_3",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0482",
+    "stop_name":"Station 482",
+    "latitude":40.810674,
+    "longitude":-73.870544,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0483",
+    "stop_name":"Station 483",
+    "latitude":40.690071,
+    "longitude":-74.202701,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0484",
+    "stop_name":"Station 484",
+    "latitude":40.776579,
+    "longitude":-74.218431,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0485",
+    "stop_name":"Station 485",
+    "latitude":40.754957,
+    "longitude":-73.891906,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0486",
+    "stop_name":"Station 486",
+    "latitude":40.913379,
+    "longitude":-74.008254,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0487",
+    "stop_name":"Station 487",
+    "latitude":40.485523,
+    "longitude":-73.911799,
+    "zone_id":"ZONE_1",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0488",
+    "stop_name":"Station 488",
+    "latitude":40.603282,
+    "longitude":-74.038586,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0489",
+    "stop_name":"Station 489",
+    "latitude":40.938006,
+    "longitude":-74.132799,
+    "zone_id":"ZONE_5",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0490",
+    "stop_name":"Station 490",
+    "latitude":40.907932,
+    "longitude":-73.846449,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0491",
+    "stop_name":"Station 491",
+    "latitude":40.690628,
+    "longitude":-73.856292,
+    "zone_id":"ZONE_7",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0492",
+    "stop_name":"Station 492",
+    "latitude":40.772866,
+    "longitude":-73.908652,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0493",
+    "stop_name":"Station 493",
+    "latitude":40.601491,
+    "longitude":-74.119927,
+    "zone_id":"ZONE_10",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0494",
+    "stop_name":"Station 494",
+    "latitude":40.556861,
+    "longitude":-73.960885,
+    "zone_id":"ZONE_6",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0495",
+    "stop_name":"Station 495",
+    "latitude":40.694649,
+    "longitude":-74.075513,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0496",
+    "stop_name":"Station 496",
+    "latitude":40.639476,
+    "longitude":-74.210209,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0497",
+    "stop_name":"Station 497",
+    "latitude":40.754628,
+    "longitude":-73.797343,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0498",
+    "stop_name":"Station 498",
+    "latitude":40.501667,
+    "longitude":-74.187591,
+    "zone_id":"ZONE_4",
+    "wheelchair_boarding":1
+  },
+  {
+    "stop_id":"STOP_0499",
+    "stop_name":"Station 499",
+    "latitude":40.949997,
+    "longitude":-73.780881,
+    "zone_id":"ZONE_9",
+    "wheelchair_boarding":0
+  },
+  {
+    "stop_id":"STOP_0500",
+    "stop_name":"Station 500",
+    "latitude":40.955905,
+    "longitude":-74.032997,
+    "zone_id":"ZONE_8",
+    "wheelchair_boarding":1
+  }
+]

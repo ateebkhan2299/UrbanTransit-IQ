@@ -1,0 +1,11 @@
+{
+  "model_type": "Scikit_Learn_RandomForestRegressor",
+  "features": [
+    "hour_of_day",
+    "day_of_week",
+    "is_peak_hour"
+  ],
+  "rmse": 1334.5789,
+  "mae": 1024.7061,
+  "r2": 0.9798
+}

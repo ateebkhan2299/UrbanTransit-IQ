@@ -1,0 +1,224 @@
+{
+  "timestamp": "2026-09-24 10:39:09",
+  "models": {
+    "delay_prediction": {
+      "spark_mllib": {
+        "model_type": "PySpark_MLlib_GBTRegressor",
+        "features": [
+          "hour_of_day",
+          "day_of_week",
+          "is_peak_hour"
+        ],
+        "rmse": 13.3009,
+        "mae": 11.5774,
+        "r2": -0.0347,
+        "num_trees": 20,
+        "tree_weights": [
+          1.0,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "python_sklearn": {
+        "model_type": "Scikit_Learn_HistGradientBoostingRegressor",
+        "features": [
+          "hour_of_day",
+          "day_of_week",
+          "is_peak_hour"
+        ],
+        "rmse": 12.7149,
+        "mae": 11.0363,
+        "r2": -0.0003
+      },
+      "winner": "python_sklearn"
+    },
+    "demand_forecast": {
+      "spark_mllib": {
+        "model_type": "PySpark_MLlib_RandomForestRegressor",
+        "features": [
+          "hour_of_day",
+          "day_of_week",
+          "is_peak_hour"
+        ],
+        "rmse": 454.5053,
+        "mae": 375.019,
+        "r2": 0.0128,
+        "num_trees": 30
+      },
+      "python_sklearn": {
+        "model_type": "Scikit_Learn_RandomForestRegressor",
+        "features": [
+          "hour_of_day",
+          "day_of_week",
+          "is_peak_hour"
+        ],
+        "rmse": 1334.5789,
+        "mae": 1024.7061,
+        "r2": 0.9798
+      },
+      "winner": "python_sklearn"
+    },
+    "route_clustering": {
+      "spark_mllib": {
+        "model_type": "PySpark_MLlib_KMeans",
+        "features": [
+          "avg_occupancy_pct",
+          "total_boardings",
+          "overcrowded_events",
+          "avg_delay_minutes",
+          "performance_score"
+        ],
+        "k": 3,
+        "silhouette": 0.5451,
+        "cluster_centers": [
+          [
+            0.36642881490293083,
+            -0.31359447399289003,
+            -0.16777953110433935,
+            -0.09921587373352118,
+            0.3980397307847743
+          ],
+          [
+            0.7077132811894788,
+            1.1291201483114923,
+            1.120377026800121,
+            0.4404484688675506,
+            0.6197600137859952
+          ],
+          [
+            -1.5770846975099724,
+            -1.0790170492474656,
+            -1.300080587753225,
+            -0.4578824584409186,
+            -1.5045275885560532
+          ]
+        ]
+      },
+      "python_sklearn": {
+        "model_type": "Scikit_Learn_KMeans",
+        "features": [
+          "avg_occupancy_pct",
+          "total_boardings",
+          "overcrowded_events",
+          "avg_delay_minutes",
+          "performance_score"
+        ],
+        "k": 3,
+        "silhouette": 0.4528,
+        "cluster_centers": [
+          [
+            0.7158251424340384,
+            0.8085947970019712,
+            0.854289716418509,
+            0.5003401390475481,
+            0.6135919007216468
+          ],
+          [
+            -0.16654263798616828,
+            -0.6486280304911054,
+            -0.603286812988943,
+            -0.9227243971766456,
+            0.04870703683858359
+          ],
+          [
+            -1.9974843194790686,
+            -1.1818505855273245,
+            -1.4399631577541632,
+            0.4852231299203307,
+            -2.158956088362165
+          ]
+        ]
+      }
+    },
+    "occupancy_risk": {
+      "spark_mllib": {
+        "model_type": "PySpark_MLlib_RandomForestClassifier",
+        "features": [
+          "hour_of_day",
+          "day_of_week",
+          "is_peak_hour",
+          "total_capacity",
+          "headway_minutes"
+        ],
+        "accuracy": 0.587,
+        "precision": 0.5789,
+        "recall": 0.587,
+        "f1": 0.5751,
+        "num_trees": 40
+      },
+      "python_sklearn": {
+        "model_type": "XGBoost_XGBClassifier",
+        "features": [
+          "hour_of_day",
+          "day_of_week",
+          "is_peak_hour",
+          "total_capacity"
+        ],
+        "accuracy": 0.974,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "winner": "spark_mllib"
+    }
+  },
+  "sample_test_cases": [
+    {
+      "route_id": "R1",
+      "scheduled_delay_minutes": 41.0,
+      "hour_of_day": 6,
+      "day_of_week": 3,
+      "temperature_c": 20.0,
+      "is_peak_hour": 0
+    },
+    {
+      "route_id": "R1",
+      "scheduled_delay_minutes": 28.0,
+      "hour_of_day": 6,
+      "day_of_week": 3,
+      "temperature_c": 20.0,
+      "is_peak_hour": 0
+    },
+    {
+      "route_id": "R1",
+      "scheduled_delay_minutes": 21.0,
+      "hour_of_day": 6,
+      "day_of_week": 3,
+      "temperature_c": 20.0,
+      "is_peak_hour": 0
+    },
+    {
+      "route_id": "R1",
+      "scheduled_delay_minutes": 28.0,
+      "hour_of_day": 7,
+      "day_of_week": 3,
+      "temperature_c": 20.0,
+      "is_peak_hour": 1
+    },
+    {
+      "route_id": "R1",
+      "scheduled_delay_minutes": 19.0,
+      "hour_of_day": 7,
+      "day_of_week": 3,
+      "temperature_c": 20.0,
+      "is_peak_hour": 1
+    }
+  ]
+}

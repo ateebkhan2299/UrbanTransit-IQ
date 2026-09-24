@@ -1,0 +1,802 @@
+[
+  {
+    "route_id":"ROUTE_001",
+    "route_short_name":"R1",
+    "route_long_name":"Line 1 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_2"
+  },
+  {
+    "route_id":"ROUTE_002",
+    "route_short_name":"R2",
+    "route_long_name":"Line 2 - Main Transit Route",
+    "route_type":3,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_1"
+  },
+  {
+    "route_id":"ROUTE_003",
+    "route_short_name":"R3",
+    "route_long_name":"Line 3 - Main Transit Route",
+    "route_type":0,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_3"
+  },
+  {
+    "route_id":"ROUTE_004",
+    "route_short_name":"R4",
+    "route_long_name":"Line 4 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_5"
+  },
+  {
+    "route_id":"ROUTE_005",
+    "route_short_name":"R5",
+    "route_long_name":"Line 5 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_5"
+  },
+  {
+    "route_id":"ROUTE_006",
+    "route_short_name":"R6",
+    "route_long_name":"Line 6 - Main Transit Route",
+    "route_type":3,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_3"
+  },
+  {
+    "route_id":"ROUTE_007",
+    "route_short_name":"R7",
+    "route_long_name":"Line 7 - Main Transit Route",
+    "route_type":0,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_1"
+  },
+  {
+    "route_id":"ROUTE_008",
+    "route_short_name":"R8",
+    "route_long_name":"Line 8 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_2"
+  },
+  {
+    "route_id":"ROUTE_009",
+    "route_short_name":"R9",
+    "route_long_name":"Line 9 - Main Transit Route",
+    "route_type":0,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_3"
+  },
+  {
+    "route_id":"ROUTE_010",
+    "route_short_name":"R10",
+    "route_long_name":"Line 10 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_2"
+  },
+  {
+    "route_id":"ROUTE_011",
+    "route_short_name":"R11",
+    "route_long_name":"Line 11 - Main Transit Route",
+    "route_type":0,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_2"
+  },
+  {
+    "route_id":"ROUTE_012",
+    "route_short_name":"R12",
+    "route_long_name":"Line 12 - Main Transit Route",
+    "route_type":3,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_2"
+  },
+  {
+    "route_id":"ROUTE_013",
+    "route_short_name":"R13",
+    "route_long_name":"Line 13 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_1"
+  },
+  {
+    "route_id":"ROUTE_014",
+    "route_short_name":"R14",
+    "route_long_name":"Line 14 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_1"
+  },
+  {
+    "route_id":"ROUTE_015",
+    "route_short_name":"R15",
+    "route_long_name":"Line 15 - Main Transit Route",
+    "route_type":0,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_2"
+  },
+  {
+    "route_id":"ROUTE_016",
+    "route_short_name":"R16",
+    "route_long_name":"Line 16 - Main Transit Route",
+    "route_type":0,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_4"
+  },
+  {
+    "route_id":"ROUTE_017",
+    "route_short_name":"R17",
+    "route_long_name":"Line 17 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_5"
+  },
+  {
+    "route_id":"ROUTE_018",
+    "route_short_name":"R18",
+    "route_long_name":"Line 18 - Main Transit Route",
+    "route_type":3,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_1"
+  },
+  {
+    "route_id":"ROUTE_019",
+    "route_short_name":"R19",
+    "route_long_name":"Line 19 - Main Transit Route",
+    "route_type":0,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_4"
+  },
+  {
+    "route_id":"ROUTE_020",
+    "route_short_name":"R20",
+    "route_long_name":"Line 20 - Main Transit Route",
+    "route_type":0,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_4"
+  },
+  {
+    "route_id":"ROUTE_021",
+    "route_short_name":"R21",
+    "route_long_name":"Line 21 - Main Transit Route",
+    "route_type":0,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_5"
+  },
+  {
+    "route_id":"ROUTE_022",
+    "route_short_name":"R22",
+    "route_long_name":"Line 22 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_2"
+  },
+  {
+    "route_id":"ROUTE_023",
+    "route_short_name":"R23",
+    "route_long_name":"Line 23 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_4"
+  },
+  {
+    "route_id":"ROUTE_024",
+    "route_short_name":"R24",
+    "route_long_name":"Line 24 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_4"
+  },
+  {
+    "route_id":"ROUTE_025",
+    "route_short_name":"R25",
+    "route_long_name":"Line 25 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_4"
+  },
+  {
+    "route_id":"ROUTE_026",
+    "route_short_name":"R26",
+    "route_long_name":"Line 26 - Main Transit Route",
+    "route_type":3,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_2"
+  },
+  {
+    "route_id":"ROUTE_027",
+    "route_short_name":"R27",
+    "route_long_name":"Line 27 - Main Transit Route",
+    "route_type":3,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_2"
+  },
+  {
+    "route_id":"ROUTE_028",
+    "route_short_name":"R28",
+    "route_long_name":"Line 28 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_1"
+  },
+  {
+    "route_id":"ROUTE_029",
+    "route_short_name":"R29",
+    "route_long_name":"Line 29 - Main Transit Route",
+    "route_type":3,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_1"
+  },
+  {
+    "route_id":"ROUTE_030",
+    "route_short_name":"R30",
+    "route_long_name":"Line 30 - Main Transit Route",
+    "route_type":0,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_4"
+  },
+  {
+    "route_id":"ROUTE_031",
+    "route_short_name":"R31",
+    "route_long_name":"Line 31 - Main Transit Route",
+    "route_type":0,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_2"
+  },
+  {
+    "route_id":"ROUTE_032",
+    "route_short_name":"R32",
+    "route_long_name":"Line 32 - Main Transit Route",
+    "route_type":0,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_2"
+  },
+  {
+    "route_id":"ROUTE_033",
+    "route_short_name":"R33",
+    "route_long_name":"Line 33 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_5"
+  },
+  {
+    "route_id":"ROUTE_034",
+    "route_short_name":"R34",
+    "route_long_name":"Line 34 - Main Transit Route",
+    "route_type":0,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_4"
+  },
+  {
+    "route_id":"ROUTE_035",
+    "route_short_name":"R35",
+    "route_long_name":"Line 35 - Main Transit Route",
+    "route_type":3,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_1"
+  },
+  {
+    "route_id":"ROUTE_036",
+    "route_short_name":"R36",
+    "route_long_name":"Line 36 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_5"
+  },
+  {
+    "route_id":"ROUTE_037",
+    "route_short_name":"R37",
+    "route_long_name":"Line 37 - Main Transit Route",
+    "route_type":3,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_2"
+  },
+  {
+    "route_id":"ROUTE_038",
+    "route_short_name":"R38",
+    "route_long_name":"Line 38 - Main Transit Route",
+    "route_type":0,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_1"
+  },
+  {
+    "route_id":"ROUTE_039",
+    "route_short_name":"R39",
+    "route_long_name":"Line 39 - Main Transit Route",
+    "route_type":0,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_4"
+  },
+  {
+    "route_id":"ROUTE_040",
+    "route_short_name":"R40",
+    "route_long_name":"Line 40 - Main Transit Route",
+    "route_type":0,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_2"
+  },
+  {
+    "route_id":"ROUTE_041",
+    "route_short_name":"R41",
+    "route_long_name":"Line 41 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_4"
+  },
+  {
+    "route_id":"ROUTE_042",
+    "route_short_name":"R42",
+    "route_long_name":"Line 42 - Main Transit Route",
+    "route_type":3,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_5"
+  },
+  {
+    "route_id":"ROUTE_043",
+    "route_short_name":"R43",
+    "route_long_name":"Line 43 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_5"
+  },
+  {
+    "route_id":"ROUTE_044",
+    "route_short_name":"R44",
+    "route_long_name":"Line 44 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_5"
+  },
+  {
+    "route_id":"ROUTE_045",
+    "route_short_name":"R45",
+    "route_long_name":"Line 45 - Main Transit Route",
+    "route_type":0,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_3"
+  },
+  {
+    "route_id":"ROUTE_046",
+    "route_short_name":"R46",
+    "route_long_name":"Line 46 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_4"
+  },
+  {
+    "route_id":"ROUTE_047",
+    "route_short_name":"R47",
+    "route_long_name":"Line 47 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_5"
+  },
+  {
+    "route_id":"ROUTE_048",
+    "route_short_name":"R48",
+    "route_long_name":"Line 48 - Main Transit Route",
+    "route_type":0,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_5"
+  },
+  {
+    "route_id":"ROUTE_049",
+    "route_short_name":"R49",
+    "route_long_name":"Line 49 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_4"
+  },
+  {
+    "route_id":"ROUTE_050",
+    "route_short_name":"R50",
+    "route_long_name":"Line 50 - Main Transit Route",
+    "route_type":0,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_5"
+  },
+  {
+    "route_id":"ROUTE_051",
+    "route_short_name":"R51",
+    "route_long_name":"Line 51 - Main Transit Route",
+    "route_type":0,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_4"
+  },
+  {
+    "route_id":"ROUTE_052",
+    "route_short_name":"R52",
+    "route_long_name":"Line 52 - Main Transit Route",
+    "route_type":0,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_2"
+  },
+  {
+    "route_id":"ROUTE_053",
+    "route_short_name":"R53",
+    "route_long_name":"Line 53 - Main Transit Route",
+    "route_type":0,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_4"
+  },
+  {
+    "route_id":"ROUTE_054",
+    "route_short_name":"R54",
+    "route_long_name":"Line 54 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_4"
+  },
+  {
+    "route_id":"ROUTE_055",
+    "route_short_name":"R55",
+    "route_long_name":"Line 55 - Main Transit Route",
+    "route_type":0,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_3"
+  },
+  {
+    "route_id":"ROUTE_056",
+    "route_short_name":"R56",
+    "route_long_name":"Line 56 - Main Transit Route",
+    "route_type":0,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_2"
+  },
+  {
+    "route_id":"ROUTE_057",
+    "route_short_name":"R57",
+    "route_long_name":"Line 57 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_3"
+  },
+  {
+    "route_id":"ROUTE_058",
+    "route_short_name":"R58",
+    "route_long_name":"Line 58 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_5"
+  },
+  {
+    "route_id":"ROUTE_059",
+    "route_short_name":"R59",
+    "route_long_name":"Line 59 - Main Transit Route",
+    "route_type":3,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_4"
+  },
+  {
+    "route_id":"ROUTE_060",
+    "route_short_name":"R60",
+    "route_long_name":"Line 60 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_2"
+  },
+  {
+    "route_id":"ROUTE_061",
+    "route_short_name":"R61",
+    "route_long_name":"Line 61 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_3"
+  },
+  {
+    "route_id":"ROUTE_062",
+    "route_short_name":"R62",
+    "route_long_name":"Line 62 - Main Transit Route",
+    "route_type":3,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_4"
+  },
+  {
+    "route_id":"ROUTE_063",
+    "route_short_name":"R63",
+    "route_long_name":"Line 63 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_1"
+  },
+  {
+    "route_id":"ROUTE_064",
+    "route_short_name":"R64",
+    "route_long_name":"Line 64 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_3"
+  },
+  {
+    "route_id":"ROUTE_065",
+    "route_short_name":"R65",
+    "route_long_name":"Line 65 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_2"
+  },
+  {
+    "route_id":"ROUTE_066",
+    "route_short_name":"R66",
+    "route_long_name":"Line 66 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_3"
+  },
+  {
+    "route_id":"ROUTE_067",
+    "route_short_name":"R67",
+    "route_long_name":"Line 67 - Main Transit Route",
+    "route_type":3,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_3"
+  },
+  {
+    "route_id":"ROUTE_068",
+    "route_short_name":"R68",
+    "route_long_name":"Line 68 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_3"
+  },
+  {
+    "route_id":"ROUTE_069",
+    "route_short_name":"R69",
+    "route_long_name":"Line 69 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_5"
+  },
+  {
+    "route_id":"ROUTE_070",
+    "route_short_name":"R70",
+    "route_long_name":"Line 70 - Main Transit Route",
+    "route_type":3,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_1"
+  },
+  {
+    "route_id":"ROUTE_071",
+    "route_short_name":"R71",
+    "route_long_name":"Line 71 - Main Transit Route",
+    "route_type":0,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_2"
+  },
+  {
+    "route_id":"ROUTE_072",
+    "route_short_name":"R72",
+    "route_long_name":"Line 72 - Main Transit Route",
+    "route_type":3,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_2"
+  },
+  {
+    "route_id":"ROUTE_073",
+    "route_short_name":"R73",
+    "route_long_name":"Line 73 - Main Transit Route",
+    "route_type":0,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_2"
+  },
+  {
+    "route_id":"ROUTE_074",
+    "route_short_name":"R74",
+    "route_long_name":"Line 74 - Main Transit Route",
+    "route_type":3,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_4"
+  },
+  {
+    "route_id":"ROUTE_075",
+    "route_short_name":"R75",
+    "route_long_name":"Line 75 - Main Transit Route",
+    "route_type":3,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_2"
+  },
+  {
+    "route_id":"ROUTE_076",
+    "route_short_name":"R76",
+    "route_long_name":"Line 76 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_2"
+  },
+  {
+    "route_id":"ROUTE_077",
+    "route_short_name":"R77",
+    "route_long_name":"Line 77 - Main Transit Route",
+    "route_type":0,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_1"
+  },
+  {
+    "route_id":"ROUTE_078",
+    "route_short_name":"R78",
+    "route_long_name":"Line 78 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_4"
+  },
+  {
+    "route_id":"ROUTE_079",
+    "route_short_name":"R79",
+    "route_long_name":"Line 79 - Main Transit Route",
+    "route_type":0,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_4"
+  },
+  {
+    "route_id":"ROUTE_080",
+    "route_short_name":"R80",
+    "route_long_name":"Line 80 - Main Transit Route",
+    "route_type":3,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_3"
+  },
+  {
+    "route_id":"ROUTE_081",
+    "route_short_name":"R81",
+    "route_long_name":"Line 81 - Main Transit Route",
+    "route_type":3,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_5"
+  },
+  {
+    "route_id":"ROUTE_082",
+    "route_short_name":"R82",
+    "route_long_name":"Line 82 - Main Transit Route",
+    "route_type":0,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_4"
+  },
+  {
+    "route_id":"ROUTE_083",
+    "route_short_name":"R83",
+    "route_long_name":"Line 83 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_4"
+  },
+  {
+    "route_id":"ROUTE_084",
+    "route_short_name":"R84",
+    "route_long_name":"Line 84 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_1"
+  },
+  {
+    "route_id":"ROUTE_085",
+    "route_short_name":"R85",
+    "route_long_name":"Line 85 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_2"
+  },
+  {
+    "route_id":"ROUTE_086",
+    "route_short_name":"R86",
+    "route_long_name":"Line 86 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_4"
+  },
+  {
+    "route_id":"ROUTE_087",
+    "route_short_name":"R87",
+    "route_long_name":"Line 87 - Main Transit Route",
+    "route_type":3,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_4"
+  },
+  {
+    "route_id":"ROUTE_088",
+    "route_short_name":"R88",
+    "route_long_name":"Line 88 - Main Transit Route",
+    "route_type":3,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_5"
+  },
+  {
+    "route_id":"ROUTE_089",
+    "route_short_name":"R89",
+    "route_long_name":"Line 89 - Main Transit Route",
+    "route_type":3,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_1"
+  },
+  {
+    "route_id":"ROUTE_090",
+    "route_short_name":"R90",
+    "route_long_name":"Line 90 - Main Transit Route",
+    "route_type":3,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_5"
+  },
+  {
+    "route_id":"ROUTE_091",
+    "route_short_name":"R91",
+    "route_long_name":"Line 91 - Main Transit Route",
+    "route_type":3,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_4"
+  },
+  {
+    "route_id":"ROUTE_092",
+    "route_short_name":"R92",
+    "route_long_name":"Line 92 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_4"
+  },
+  {
+    "route_id":"ROUTE_093",
+    "route_short_name":"R93",
+    "route_long_name":"Line 93 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_1"
+  },
+  {
+    "route_id":"ROUTE_094",
+    "route_short_name":"R94",
+    "route_long_name":"Line 94 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_3"
+  },
+  {
+    "route_id":"ROUTE_095",
+    "route_short_name":"R95",
+    "route_long_name":"Line 95 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_3"
+  },
+  {
+    "route_id":"ROUTE_096",
+    "route_short_name":"R96",
+    "route_long_name":"Line 96 - Main Transit Route",
+    "route_type":3,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_4"
+  },
+  {
+    "route_id":"ROUTE_097",
+    "route_short_name":"R97",
+    "route_long_name":"Line 97 - Main Transit Route",
+    "route_type":3,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_4"
+  },
+  {
+    "route_id":"ROUTE_098",
+    "route_short_name":"R98",
+    "route_long_name":"Line 98 - Main Transit Route",
+    "route_type":3,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_5"
+  },
+  {
+    "route_id":"ROUTE_099",
+    "route_short_name":"R99",
+    "route_long_name":"Line 99 - Main Transit Route",
+    "route_type":0,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_5"
+  },
+  {
+    "route_id":"ROUTE_100",
+    "route_short_name":"R100",
+    "route_long_name":"Line 100 - Main Transit Route",
+    "route_type":1,
+    "agency_id":"TRANSIT_AGENCY_MAIN",
+    "fare_zone":"FARE_ZONE_5"
+  }
+]

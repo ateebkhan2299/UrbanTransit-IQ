@@ -1,0 +1,21 @@
+route_id,route_name,transport_mode
+R001,Route 1,Tram
+R002,Route 2,Bus
+R003,Route 3,Bus
+R004,Route 4,Tram
+R005,Route 5,Tram
+R006,Route 6,Bus
+R007,Route 7,Tram
+R008,Route 8,Bus
+R009,Route 9,Tram
+R010,Route 10,Tram
+R011,Route 11,Tram
+R012,Route 12,Bus
+R013,Route 13,Bus
+R014,Route 14,Tram
+R015,Route 15,Tram
+R016,Route 16,Tram
+R017,Route 17,Tram
+R018,Route 18,Bus
+R019,Route 19,Tram
+R020,Route 20,Bus

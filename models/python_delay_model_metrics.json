@@ -1,0 +1,11 @@
+{
+  "model_type": "Scikit_Learn_HistGradientBoostingRegressor",
+  "features": [
+    "hour_of_day",
+    "day_of_week",
+    "is_peak_hour"
+  ],
+  "rmse": 12.7149,
+  "mae": 11.0363,
+  "r2": -0.0003
+}

@@ -1,0 +1,13 @@
+duplicate_ticket_ids,invalid_timestamps,negative_boardings,null_passenger_ids,table_name,total_records
+40000,0,0,102176,tickets,2040000
+0,0,7016,0,passenger_counts,689564
+0,0,0,0,stops,500
+0,0,0,0,routes,100
+0,0,0,0,route_stops,1381
+0,0,0,0,vehicles,250
+0,0,0,0,passengers,50000
+0,0,0,0,service_calendar,3
+0,0,0,0,trips,50000
+0,0,0,0,schedules,689564
+0,0,0,0,delays,172226
+0,0,0,0,gps_events,689564
