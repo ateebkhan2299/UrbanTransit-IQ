@@ -1,286 +1,266 @@
 """
-=============================================================================
-UrbanTransit IQ — MongoDB Data Ingestion Script
-=============================================================================
-Purpose  : Read ALL cleaned CSVs from processed_data/ and ingest them
-           into MongoDB collections at mongodb://localhost:27017/
-Database : urbantransit_iq
-Author   : AI-assisted (flagged in AI_USAGE.md)
-=============================================================================
-
-Collections Created:
-  1.  passengers        — 50K+ passenger records
-  2.  routes            — 100+ route definitions
-  3.  stops             — 500+ bus stops
-  4.  vehicles          — 250+ vehicles
-  5.  route_stops       — route ↔ stop mapping
-  6.  schedules         — planned schedules
-  7.  service_calendar  — operating calendar
-  8.  trips             — 500K+ trip records
-  9.  delays            — 250K+ delay records
-  10. tickets           — 2M+ ticketing records
-  11. passenger_counts  — occupancy counts per stop
-  12. gps_events        — GPS tracking events
-
-Indexes Created per collection for fast API queries.
-=============================================================================
+UrbanTransit IQ -- Complete MongoDB Data Ingestion
+Saves ALL project data to MongoDB: Transport tables, Features, Reports, Model Metrics
 """
-
-import os
-import sys
-import math
-import time
+import os, sys, json, math, time
 import pandas as pd
 from pymongo import MongoClient, ASCENDING, DESCENDING
 from pymongo.errors import BulkWriteError, ConnectionFailure
 
-# ─── Configuration ────────────────────────────────────────────────────────────
-MONGO_URI      = "mongodb://localhost:27017/"
-DB_NAME        = "urbantransit_iq"
-PROCESSED_DIR  = "./processed_data/"   # Cleaned CSVs location
-CHUNK_SIZE     = 5_000                 # Records per batch insert (memory safe)
+MONGO_URI     = "mongodb://localhost:27017/"
+DB_NAME       = "urbantransit_iq"
+PROCESSED_DIR = "./processed_data/"
+REPORTS_DIR   = "./reports/"
+MODELS_DIR    = "./models/"
+CHUNK_SIZE    = 5000
 
-# Maps: CSV filename → MongoDB collection name
-CSV_TO_COLLECTION = {
-    "passengers_clean.csv"       : "passengers",
-    "routes_clean.csv"           : "routes",
-    "stops_clean.csv"            : "stops",
-    "vehicles_clean.csv"         : "vehicles",
-    "route_stops_clean.csv"      : "route_stops",
-    "schedules_clean.csv"        : "schedules",
-    "service_calendar_clean.csv" : "service_calendar",
-    "trips_clean.csv"            : "trips",
-    "delays_clean.csv"           : "delays",
-    "tickets_clean.csv"          : "tickets",
-    "passenger_counts_clean.csv" : "passenger_counts",
-    "gps_events_clean.csv"       : "gps_events",
+PARQUET_COLLECTIONS = {
+    "passengers_clean.parquet"          : "passengers",
+    "routes_clean.parquet"              : "routes",
+    "stops_clean.parquet"               : "stops",
+    "vehicles_clean.parquet"            : "vehicles",
+    "route_stops_clean.parquet"         : "route_stops",
+    "schedules_clean.parquet"           : "schedules",
+    "service_calendar_clean.parquet"    : "service_calendar",
+    "trips_clean.parquet"               : "trips",
+    "delays_clean.parquet"              : "delays",
+    "tickets_clean.parquet"             : "tickets",
+    "passenger_counts_clean.parquet"    : "passenger_counts",
+    "gps_events_clean.parquet"          : "gps_events",
+    "features_delays.parquet"           : "features_delays",
+    "features_occupancy.parquet"        : "features_occupancy",
+    "features_tickets.parquet"          : "features_tickets",
+    "summary_route_performance.parquet" : "summary_route_performance",
+    "summary_hourly_demand.parquet"     : "summary_hourly_demand",
+    "summary_delay_causes.parquet"      : "summary_delay_causes",
 }
 
-# Indexes per collection: list of (field, direction) tuples
-COLLECTION_INDEXES = {
-    "passengers"      : [("passenger_id", ASCENDING)],
-    "routes"          : [("route_id", ASCENDING)],
-    "stops"           : [("stop_id", ASCENDING)],
-    "vehicles"        : [("vehicle_id", ASCENDING)],
-    "route_stops"     : [("route_id", ASCENDING), ("stop_id", ASCENDING)],
-    "schedules"       : [("route_id", ASCENDING)],
-    "service_calendar": [],
-    "trips"           : [("trip_id", ASCENDING), ("route_id", ASCENDING)],
-    "delays"          : [("delay_id", ASCENDING), ("trip_id", ASCENDING)],
-    "tickets"         : [("ticket_id", ASCENDING), ("passenger_id", ASCENDING)],
-    "passenger_counts": [("trip_id", ASCENDING), ("stop_id", ASCENDING)],
-    "gps_events"      : [("vehicle_id", ASCENDING), ("timestamp", DESCENDING)],
+INDEXES = {
+    "passengers"              : [("passenger_id", ASCENDING)],
+    "routes"                  : [("route_id", ASCENDING)],
+    "stops"                   : [("stop_id", ASCENDING)],
+    "vehicles"                : [("vehicle_id", ASCENDING)],
+    "route_stops"             : [("route_id", ASCENDING)],
+    "trips"                   : [("trip_id", ASCENDING), ("route_id", ASCENDING)],
+    "delays"                  : [("trip_id", ASCENDING)],
+    "tickets"                 : [("ticket_id", ASCENDING), ("passenger_id", ASCENDING)],
+    "passenger_counts"        : [("trip_id", ASCENDING)],
+    "gps_events"              : [("vehicle_id", ASCENDING)],
+    "recommendations"         : [("priority", DESCENDING)],
+    "dual_pipeline_comparison": [("trip_id", ASCENDING)],
 }
 
-
-def connect_to_mongodb(uri: str) -> MongoClient:
-    """
-    Establish connection to MongoDB and verify it is reachable.
-    Raises SystemExit if MongoDB is not running.
-    """
-    print(f"\n{'='*65}")
-    print("  UrbanTransit IQ — MongoDB Data Ingestion")
-    print(f"{'='*65}")
-    print(f"  Connecting to: {uri}")
-
+def connect(uri):
+    print("="*60)
+    print("  UrbanTransit IQ - MongoDB Complete Ingestion")
+    print("="*60)
+    print(f"  URI: {uri}  |  DB: {DB_NAME}")
     try:
         client = MongoClient(uri, serverSelectionTimeoutMS=5000)
-        # Ping the server to confirm connection
         client.admin.command("ping")
-        print("  ✅ MongoDB connection successful!\n")
+        print("  [OK] MongoDB connected!\n")
         return client
-    except ConnectionFailure as connection_err:
-        print(f"\n  ❌ ERROR: Cannot connect to MongoDB at {uri}")
-        print(f"     Reason: {connection_err}")
-        print("     Make sure MongoDB is running: net start MongoDB")
+    except ConnectionFailure as e:
+        print(f"  [ERROR] Cannot connect: {e}")
         sys.exit(1)
 
-
-def clean_record(record: dict) -> dict:
-    """
-    Convert NaN / Infinity / NaT values to None so MongoDB can accept them.
-    Converts pandas Timestamp objects to Python datetime.
-    """
-    clean = {}
-    for key, value in record.items():
+def clean_row(record):
+    """Convert NaN/Inf/NaT/Timestamp to MongoDB-safe Python types."""
+    import pandas as pd
+    out = {}
+    for k, v in record.items():
+        # Handle pandas NaT explicitly (must come before isna check)
+        if type(v).__name__ == 'NaTType':
+            out[k] = None
         # Handle float NaN / Infinity
-        if isinstance(value, float) and (math.isnan(value) or math.isinf(value)):
-            clean[key] = None
-        # Handle pandas Timestamp
-        elif hasattr(value, 'to_pydatetime'):
+        elif isinstance(v, float) and (math.isnan(v) or math.isinf(v)):
+            out[k] = None
+        # Handle pandas Timestamp -> Python datetime
+        elif hasattr(v, 'to_pydatetime'):
             try:
-                clean[key] = value.to_pydatetime()
+                dt = v.to_pydatetime()
+                # Remove timezone info if present (MongoDB stores UTC)
+                if hasattr(dt, 'tzinfo') and dt.tzinfo is not None:
+                    dt = dt.replace(tzinfo=None)
+                out[k] = dt
             except Exception:
-                clean[key] = str(value)
-        # Handle pandas NA
-        elif pd.isna(value) if not isinstance(value, (list, dict)) else False:
-            clean[key] = None
+                out[k] = None
+        # Handle numpy integer types
+        elif hasattr(v, 'item'):
+            try:    out[k] = v.item()
+            except: out[k] = None
+        # Handle Python datetime.date -> datetime.datetime
+        elif isinstance(v, __import__('datetime').date) and not isinstance(v, __import__('datetime').datetime):
+            out[k] = __import__('datetime').datetime.combine(v, __import__('datetime').datetime.min.time())
+        # Handle generic pandas NA / None / datetime
         else:
-            clean[key] = value
-    return clean
-
-
-def ingest_csv_to_collection(
-    db,
-    csv_filename: str,
-    collection_name: str,
-    chunk_size: int = CHUNK_SIZE
-) -> dict:
-    """
-    Read a cleaned CSV file in chunks and insert all records into a
-    MongoDB collection. Returns a summary dict with counts and timing.
-    """
-    csv_path = os.path.join(PROCESSED_DIR, csv_filename)
-
-    # Check file exists
-    if not os.path.exists(csv_path):
-        print(f"  ⚠️  SKIPPED: {csv_filename} not found in {PROCESSED_DIR}")
-        return {"collection": collection_name, "status": "skipped",
-                "inserted": 0, "errors": 0}
-
-    file_size_mb = os.path.getsize(csv_path) / (1024 * 1024)
-    print(f"\n  📂 Ingesting: {csv_filename}  ({file_size_mb:.1f} MB)")
-    print(f"     → Collection: {DB_NAME}.{collection_name}")
-
-    collection    = db[collection_name]
-    total_inserted = 0
-    total_errors   = 0
-    chunk_num      = 0
-    start_time     = time.time()
-
-    # Drop existing collection data before fresh ingestion
-    collection.drop()
-    print(f"     → Dropped existing collection (fresh load)")
-
-    # Read CSV in chunks for memory efficiency
-    reader = pd.read_csv(csv_path, chunksize=chunk_size, low_memory=False)
-
-    for chunk_df in reader:
-        chunk_num += 1
-
-        # Convert each row to a clean dict
-        records = [clean_record(row) for row in chunk_df.to_dict(orient='records')]
-
-        try:
-            result = collection.insert_many(records, ordered=False)
-            total_inserted += len(result.inserted_ids)
-        except BulkWriteError as bwe:
-            # Some records failed — count successes and failures
-            inserted_in_batch = bwe.details.get('nInserted', 0)
-            errors_in_batch   = len(bwe.details.get('writeErrors', []))
-            total_inserted   += inserted_in_batch
-            total_errors     += errors_in_batch
-
-        # Progress indicator every 10 chunks
-        if chunk_num % 10 == 0:
-            elapsed = time.time() - start_time
-            print(f"     → Chunk {chunk_num:>4} | Inserted so far: {total_inserted:>10,} | "
-                  f"Elapsed: {elapsed:.1f}s")
-
-    elapsed_total = time.time() - start_time
-    rate = total_inserted / elapsed_total if elapsed_total > 0 else 0
-
-    print(f"     ✅ Done! Inserted: {total_inserted:,} records | "
-          f"Errors: {total_errors} | Time: {elapsed_total:.1f}s | "
-          f"Rate: {rate:,.0f} rec/s")
-
-    return {
-        "collection" : collection_name,
-        "status"     : "success",
-        "inserted"   : total_inserted,
-        "errors"     : total_errors,
-        "time_sec"   : round(elapsed_total, 2),
-    }
-
-
-def create_indexes(db, indexes_map: dict) -> None:
-    """
-    Create MongoDB indexes on each collection for fast query performance.
-    """
-    print(f"\n{'─'*65}")
-    print("  Creating Indexes for fast API queries...")
-    print(f"{'─'*65}")
-
-    for collection_name, index_fields in indexes_map.items():
-        if not index_fields:
-            continue
-        collection = db[collection_name]
-        for field, direction in index_fields:
             try:
-                collection.create_index([(field, direction)])
-                print(f"  ✅ Index created: {collection_name}.{field}")
-            except Exception as idx_err:
-                print(f"  ⚠️  Index failed on {collection_name}.{field}: {idx_err}")
+                out[k] = None if pd.isna(v) else v
+            except Exception:
+                out[k] = v
+    return out
 
 
-def print_ingestion_summary(results: list, total_time: float) -> None:
-    """
-    Print a formatted summary table of all ingestion results.
-    """
-    print(f"\n{'='*65}")
-    print("  INGESTION SUMMARY REPORT")
-    print(f"{'='*65}")
-    print(f"  {'Collection':<25} {'Status':<10} {'Records':>12} {'Errors':>8}")
-    print(f"  {'-'*25} {'-'*10} {'-'*12} {'-'*8}")
+def ingest_parquet(db, filename, col_name):
+    path = os.path.join(PROCESSED_DIR, filename)
+    if not os.path.exists(path):
+        print(f"  [SKIP] Not found: {filename}")
+        return {"collection": col_name, "inserted": 0, "status": "skipped"}
 
-    total_records = 0
-    total_errors  = 0
+    size_mb = os.path.getsize(path) / 1_048_576
+    print(f"\n  [FILE] {filename}  ({size_mb:.1f} MB)  ->  {col_name}")
+    col = db[col_name]
+    col.drop()
 
+    df    = pd.read_parquet(path)
+    total = len(df)
+    ins   = 0
+    t0    = time.time()
+
+    for i in range(0, total, CHUNK_SIZE):
+        chunk   = df.iloc[i:i+CHUNK_SIZE]
+        records = [clean_row(r) for r in chunk.to_dict(orient='records')]
+        try:
+            col.insert_many(records, ordered=False)
+            ins += len(records)
+        except BulkWriteError as bwe:
+            ins += bwe.details.get('nInserted', 0)
+        if ins % 50000 < CHUNK_SIZE and ins > 0:
+            print(f"     -> {ins:>10,} / {total:,}  inserted ...")
+
+    elapsed = time.time() - t0
+    rate    = ins / elapsed if elapsed > 0 else 0
+    print(f"     [OK] {ins:,} records | {elapsed:.1f}s | {rate:,.0f} rec/s")
+    return {"collection": col_name, "inserted": ins, "status": "success"}
+
+def ingest_json(db, filepath, col_name):
+    if not os.path.exists(filepath):
+        print(f"  [SKIP] Not found: {filepath}")
+        return {"collection": col_name, "inserted": 0, "status": "skipped"}
+
+    print(f"\n  [JSON] {os.path.basename(filepath)}  ->  {col_name}")
+    col = db[col_name]
+    col.drop()
+
+    with open(filepath, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    if isinstance(data, list):
+        records = [clean_row(r) if isinstance(r, dict) else {"value": r} for r in data]
+        col.insert_many(records, ordered=False)
+        count = len(records)
+    else:
+        col.insert_one(data if isinstance(data, dict) else {"value": data})
+        count = 1
+
+    print(f"     [OK] {count} document(s) inserted")
+    return {"collection": col_name, "inserted": count, "status": "success"}
+
+def ingest_csv_report(db, filepath, col_name):
+    if not os.path.exists(filepath):
+        print(f"  [SKIP] Not found: {filepath}")
+        return {"collection": col_name, "inserted": 0, "status": "skipped"}
+
+    size_kb = os.path.getsize(filepath) // 1024
+    print(f"\n  [CSV] {os.path.basename(filepath)}  ({size_kb}KB)  ->  {col_name}")
+    col = db[col_name]
+    col.drop()
+    df      = pd.read_csv(filepath, low_memory=False)
+    records = [clean_row(r) for r in df.to_dict(orient='records')]
+    col.insert_many(records, ordered=False)
+    print(f"     [OK] {len(records)} records inserted")
+    return {"collection": col_name, "inserted": len(records), "status": "success"}
+
+def ingest_model_metrics(db):
+    print(f"\n  [MODEL] All model metrics  ->  model_metrics")
+    col = db["model_metrics"]
+    col.drop()
+    files = [
+        ("spark_delay_model_metrics.json",         "spark",  "delay"),
+        ("spark_forecast_model_metrics.json",       "spark",  "forecast"),
+        ("spark_occupancy_risk_model_metrics.json", "spark",  "occupancy"),
+        ("spark_clustering_model_metrics.json",     "spark",  "clustering"),
+        ("python_delay_model_metrics.json",         "python", "delay"),
+        ("python_forecast_model_metrics.json",      "python", "forecast"),
+        ("python_occupancy_risk_model_metrics.json","python", "occupancy"),
+        ("python_clustering_model_metrics.json",    "python", "clustering"),
+    ]
+    ins = 0
+    for fname, pipeline, task in files:
+        fpath = os.path.join(MODELS_DIR, fname)
+        if not os.path.exists(fpath):
+            print(f"     [SKIP] {fname}")
+            continue
+        with open(fpath, "r") as f:
+            m = json.load(f)
+        col.insert_one({"pipeline": pipeline, "task": task, **m})
+        ins += 1
+        print(f"     [OK] {pipeline}.{task}")
+    return {"collection": "model_metrics", "inserted": ins, "status": "success"}
+
+def create_indexes(db, indexes):
+    print("\nCreating Indexes...")
+    for col_name, fields in indexes.items():
+        for field, direction in fields:
+            try:
+                db[col_name].create_index([(field, direction)])
+                print(f"  [INDEX] {col_name}.{field}")
+            except Exception as e:
+                print(f"  [WARN]  {col_name}.{field} -> {e}")
+
+def summary(results, elapsed, db):
+    print("\n" + "="*60)
+    print("  FINAL SUMMARY")
+    print("="*60)
+    total = 0
     for r in results:
-        status_icon = "✅" if r["status"] == "success" else "⚠️ "
-        print(f"  {r['collection']:<25} {status_icon} {r['status']:<8} "
-              f"{r['inserted']:>12,} {r['errors']:>8}")
-        total_records += r["inserted"]
-        total_errors  += r["errors"]
-
-    print(f"  {'─'*65}")
-    print(f"  {'TOTAL':<25} {'':10} {total_records:>12,} {total_errors:>8}")
-    print(f"\n  Total ingestion time : {total_time:.1f} seconds")
-    print(f"  Database             : {DB_NAME}")
-    print(f"  Host                 : {MONGO_URI}")
-    print(f"{'='*65}\n")
-
+        status = "[OK]  " if r["status"]=="success" else "[SKIP]"
+        print(f"  {status} {r['collection']:<30} {r['inserted']:>10,}")
+        total += r["inserted"]
+    print("  " + "-"*55)
+    print(f"  {'TOTAL':<37} {total:>10,}")
+    print(f"\n  Time: {elapsed:.1f}s  |  DB: {DB_NAME}")
+    print("\n  Live Document Counts:")
+    for col in sorted(db.list_collection_names()):
+        cnt = db[col].count_documents({})
+        print(f"    {col:<35} {cnt:>12,}")
+    print(f"\n  [DONE] Open MongoDB Compass: {MONGO_URI}")
+    print("="*60 + "\n")
 
 def main():
-    """Main entry point — connects, ingests all CSVs, creates indexes."""
+    client  = connect(MONGO_URI)
+    db      = client[DB_NAME]
+    results = []
+    t0      = time.time()
 
-    # 1. Connect to MongoDB
-    client = connect_to_mongodb(MONGO_URI)
-    db     = client[DB_NAME]
+    # Step 1: Transport + Feature Parquet data
+    print("\n" + "-"*60)
+    print("  STEP 1: Transport & Feature Data (Parquet -> MongoDB)")
+    print("-"*60)
+    for pfile, col in PARQUET_COLLECTIONS.items():
+        results.append(ingest_parquet(db, pfile, col))
 
-    # 2. Ingest each CSV → MongoDB collection
-    ingestion_results = []
-    overall_start     = time.time()
+    # Step 2: Reports
+    print("\n" + "-"*60)
+    print("  STEP 2: Reports & Recommendations")
+    print("-"*60)
+    results.append(ingest_json(db, os.path.join(REPORTS_DIR,"recommendations.json"), "recommendations"))
+    results.append(ingest_csv_report(db, os.path.join(REPORTS_DIR,"dual_pipeline_comparison.csv"), "dual_pipeline_comparison"))
+    results.append(ingest_csv_report(db, os.path.join(PROCESSED_DIR,"data_quality_report.csv"), "data_quality_report"))
+    results.append(ingest_csv_report(db, os.path.join(PROCESSED_DIR,"cleaning_summary_log.csv"), "cleaning_log"))
 
-    for csv_file, collection_name in CSV_TO_COLLECTION.items():
-        result = ingest_csv_to_collection(
-            db=db,
-            csv_filename=csv_file,
-            collection_name=collection_name,
-            chunk_size=CHUNK_SIZE
-        )
-        ingestion_results.append(result)
+    # Step 3: Model Metrics
+    print("\n" + "-"*60)
+    print("  STEP 3: ML Model Metrics")
+    print("-"*60)
+    results.append(ingest_model_metrics(db))
 
-    overall_elapsed = time.time() - overall_start
+    # Step 4: Indexes
+    create_indexes(db, INDEXES)
 
-    # 3. Create indexes
-    create_indexes(db, COLLECTION_INDEXES)
-
-    # 4. Print summary
-    print_ingestion_summary(ingestion_results, overall_elapsed)
-
-    # 5. Verify by counting documents in each collection
-    print("  Document counts in MongoDB (verification):")
-    for col_name in CSV_TO_COLLECTION.values():
-        count = db[col_name].count_documents({})
-        print(f"  {col_name:<25} → {count:>12,} documents")
-
-    print(f"\n  ✅ MongoDB ingestion complete! Open MongoDB Compass at:")
-    print(f"     {MONGO_URI}")
-    print(f"     Database: {DB_NAME}\n")
-
+    # Final summary
+    summary(results, time.time()-t0, db)
     client.close()
-
 
 if __name__ == "__main__":
     main()

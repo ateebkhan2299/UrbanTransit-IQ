@@ -27,9 +27,43 @@ def train_python_occupancy_risk_model():
     X = occ_df[feature_cols]
     y = occ_df["is_overcrowded"]
 
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    # --- Fix: Check class distribution ---
+    class_counts = y.value_counts()
+    print(f"  Class distribution: {dict(class_counts)}")
 
-    model = XGBClassifier(n_estimators=50, max_depth=5, learning_rate=0.1, random_state=42)
+    n_negative = int(class_counts.get(0, 1))
+    n_positive = int(class_counts.get(1, 1))
+
+    # If only one class exists, create a balanced synthetic minority sample
+    if len(class_counts) < 2:
+        print("  WARNING: Only one class found — adding synthetic minority samples")
+        import numpy as np
+        n_synth = max(50, len(X) // 10)
+        synth_X = X.sample(n_synth, replace=True, random_state=42)
+        synth_y = pd.Series([1 - y.iloc[0]] * n_synth)
+        X = pd.concat([X, synth_X], ignore_index=True)
+        y = pd.concat([y, synth_y], ignore_index=True)
+        n_negative = int(y.value_counts().get(0, 1))
+        n_positive = int(y.value_counts().get(1, 1))
+
+    # Compute scale_pos_weight to handle imbalance (ratio of negatives to positives)
+    scale_pos_weight = n_negative / max(n_positive, 1)
+    print(f"  scale_pos_weight = {scale_pos_weight:.2f}")
+
+    # Stratified split to preserve class ratio in both train and test sets
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y, test_size=0.2, random_state=42, stratify=y
+    )
+
+    if HAS_XGB:
+        model = XGBClassifier(
+            n_estimators=100, max_depth=5, learning_rate=0.1,
+            scale_pos_weight=scale_pos_weight, eval_metric='logloss', random_state=42
+        )
+    else:
+        model = XGBClassifier(
+            n_estimators=100, max_depth=5, learning_rate=0.1, random_state=42
+        )
     model.fit(X_train, y_train)
 
     y_pred = model.predict(X_test)
