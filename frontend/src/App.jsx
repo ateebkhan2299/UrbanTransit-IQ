@@ -9,6 +9,9 @@ import RouteMap from './pages/RouteMap';
 import Delays from './pages/Delays';
 import Occupancy from './pages/Occupancy';
 import Admin from './pages/Admin';
+import PassengerFlow from './pages/PassengerFlow';
+import RoutePerformance from './pages/RoutePerformance';
+import Forecast from './pages/Forecast';
 
 function App() {
   return (
@@ -18,12 +21,15 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/" element={<Shell />}>
             <Route index element={<Navigate to="/overview" replace />} />
-            <Route path="overview" element={<Overview />} />
-            <Route path="delays" element={<Delays />} />
-            <Route path="occupancy" element={<Occupancy />} />
-            <Route path="recommendations" element={<Recommendations />} />
-            <Route path="map" element={<RouteMap />} />
-            <Route path="admin" element={<Admin />} />
+            <Route path="overview"           element={<Overview />} />
+            <Route path="passenger-flow"     element={<PassengerFlow />} />
+            <Route path="route-performance"  element={<RoutePerformance />} />
+            <Route path="delays"             element={<Delays />} />
+            <Route path="occupancy"          element={<Occupancy />} />
+            <Route path="forecast"           element={<Forecast />} />
+            <Route path="recommendations"    element={<Recommendations />} />
+            <Route path="map"                element={<RouteMap />} />
+            <Route path="admin"              element={<Admin />} />
           </Route>
         </Routes>
       </BrowserRouter>
