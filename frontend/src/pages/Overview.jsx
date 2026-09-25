@@ -1,7 +1,18 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+import axios from 'axios';
 
 export default function Overview() {
+  const [metrics, setMetrics] = useState({
+    total_passengers: 0, on_time_pct: 0, avg_occupancy_pct: 0, active_anomalies_count: 0
+  });
+
+  useEffect(() => {
+    axios.get('http://localhost:8000/analytics/overview')
+      .then(res => setMetrics(res.data))
+      .catch(err => console.error("API Error:", err));
+  }, []);
+
   const data = [
     { period: 'Jan', passengers: 4000 },
     { period: 'Feb', passengers: 3000 },
@@ -20,19 +31,19 @@ export default function Overview() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full">
         <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-100">
           <p className="text-sm text-gray-500">Total Passengers</p>
-          <p className="text-2xl font-bold text-gray-800">2,150,000</p>
+          <p className="text-2xl font-bold text-gray-800">{metrics.total_passengers.toLocaleString()}</p>
         </div>
         <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-100">
           <p className="text-sm text-gray-500">On-Time %</p>
-          <p className="text-2xl font-bold text-green-600">82.4%</p>
+          <p className="text-2xl font-bold text-green-600">{metrics.on_time_pct}%</p>
         </div>
         <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-100">
           <p className="text-sm text-gray-500">Avg Occupancy</p>
-          <p className="text-2xl font-bold text-blue-600">65.2%</p>
+          <p className="text-2xl font-bold text-blue-600">{metrics.avg_occupancy_pct}%</p>
         </div>
         <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-100">
           <p className="text-sm text-gray-500">Active Anomalies</p>
-          <p className="text-2xl font-bold text-red-600">12</p>
+          <p className="text-2xl font-bold text-red-600">{metrics.active_anomalies_count}</p>
         </div>
       </div>
 

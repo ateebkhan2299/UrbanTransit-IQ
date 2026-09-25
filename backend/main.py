@@ -67,6 +67,45 @@ def get_config():
             return yaml.safe_load(f)
     except:
         return {}
+
+@app.get("/analytics/delays")
+def get_delays():
+    return {
+        "bar_data": [
+            {"route": "R12", "delay_min": 15},
+            {"route": "R04", "delay_min": 22},
+            {"route": "R08", "delay_min": 8},
+            {"route": "R22", "delay_min": 12},
+            {"route": "R01", "delay_min": 5},
+        ],
+        "predictions": [
+            {"trip_id": "TR-8812", "spark": "12 min", "python": "14 min", "match": True},
+            {"trip_id": "TR-4192", "spark": "25 min", "python": "On Time", "match": False},
+            {"trip_id": "TR-1102", "spark": "On Time", "python": "On Time", "match": True},
+        ]
+    }
+
+@app.get("/analytics/occupancy")
+def get_occupancy():
+    return {
+        "trend": [
+            {"time": "06:00", "occ": 30},
+            {"time": "08:00", "occ": 95},
+            {"time": "10:00", "occ": 60},
+            {"time": "12:00", "occ": 55},
+            {"time": "15:00", "occ": 70},
+            {"time": "17:30", "occ": 105},
+            {"time": "20:00", "occ": 40},
+        ],
+        "high_risk": [
+            {"route": "R12 - 08:00 AM", "value": "95%"},
+            {"route": "R12 - 05:30 PM", "value": "105% (Overcrowded)"}
+        ],
+        "underutilized": [
+            {"route": "R09 - All Day", "value": "22% Avg"}
+        ]
+    }
+
         
 if __name__ == "__main__":
     import uvicorn
